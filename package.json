@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "data": "node convertViToData.js"
+    "data": "node convertViToData.js",
+    "sd": "node convertViToData.js && node index.js"
   },
   "keywords": [],
   "author": "",

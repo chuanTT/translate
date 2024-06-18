@@ -1,9 +1,9 @@
 [
   {
-    "key": "auth.data.log_out",
+    "key": "auth.log_out",
     "value": "Đăng xuất",
-    "useT": "t('auth.data.log_out')",
-    "useJSX": "{t('auth.data.log_out')}"
+    "useT": "t('auth.log_out')",
+    "useJSX": "{t('auth.log_out')}"
   },
   {
     "key": "auth.forgot_password",

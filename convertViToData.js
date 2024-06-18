@@ -38,4 +38,4 @@ const functionArr = (obj) => {
 };
 
 const newDataConvert = functionArr(readDataFileVi);
-writeFileSync("./dataConvert.json", JSON.stringify(newDataConvert));
+writeFileSync("./data.json", JSON.stringify(newDataConvert));
