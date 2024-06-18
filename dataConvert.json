@@ -1,6 +1,6 @@
 {
   "Auth": {
-    "Log out": "Đăng xuất",
+    "Data": { "Log out": "Đăng xuất" },
     "Forgot password": "Quên mật khẩu",
     "Do not have an account?": "Bạn chưa có tài khoản?",
     "Create a new account": "Tạo tài khoản mới",

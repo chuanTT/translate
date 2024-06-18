@@ -1,9 +1,9 @@
 [
   {
-    "key": "auth.log_out",
+    "key": "auth.data.log_out",
     "value": "Đăng xuất",
-    "useT": "t('auth.log_out')",
-    "useJSX": "{t('auth.log_out')}"
+    "useT": "t('auth.data.log_out')",
+    "useJSX": "{t('auth.data.log_out')}"
   },
   {
     "key": "auth.forgot_password",
@@ -1960,29 +1960,5 @@
     "value": "Nhập câu trả lời Tham gia tại đây!",
     "useT": "t('partial.enter_the_join_answer_here!')",
     "useJSX": "{t('partial.enter_the_join_answer_here!')}"
-  },
-  {
-    "key": "hehe",
-    "value": "Có nhiều cách",
-    "useT": "t('hehe')",
-    "useJSX": "{t('hehe')}"
-  },
-  {
-    "key": "haha.:)",
-    "value": "haha",
-    "useT": "t('haha.:)')",
-    "useJSX": "{t('haha.:)')}"
-  },
-  {
-    "key": "haha.:)).hihi",
-    "value": "ssss",
-    "useT": "t('haha.:)).hihi')",
-    "useJSX": "{t('haha.:)).hihi')}"
-  },
-  {
-    "key": "hahass.hehe.kaka",
-    "value": "sss",
-    "useT": "t('hahass.hehe.kaka')",
-    "useJSX": "{t('hahass.hehe.kaka')}"
   }
 ]

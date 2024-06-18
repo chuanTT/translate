@@ -50,7 +50,7 @@ const funcObjChild = (currentValue) => {
 
         return {
           ...totalChild,
-          [keyChild]: funcObjChild(arrCurrent),
+          [keyStr]: funcObjChild(arrCurrent),
         };
       }, {});
       return { ...total, ...newChildObj };
@@ -62,21 +62,21 @@ const funcObjChild = (currentValue) => {
 
 const renderVi = arrKeys.reduce((total, key) => {
   const currentValue = dataJson[key];
+  const newKey = convertViToEn(key)
   if (Array.isArray(currentValue)) {
     const objValue = funcObjChild(currentValue);
-    return { ...total, [key]: objValue };
+    return { ...total, [newKey]: objValue };
   } else if (
     typeof currentValue === "object" &&
     !currentValue?.key &&
     !currentValue?.value
   ) {
     const objValue = funcObjChild([currentValue]);
-    return { ...total, [key]: objValue };
+    return { ...total, [newKey]: objValue };
   } else if (typeof currentValue === "string") {
-    const keyStr = convertViToEn(key);
-    return { ...total, [keyStr]: currentValue };
+    return { ...total, [newKey]: currentValue };
   }
-  return { ...total, [key]: convertObjKey(currentValue) };
+  return { ...total, [newKey]: convertObjKey(currentValue) };
 }, {});
 
 writeFileSync("./vi.json", JSON.stringify(renderVi));
