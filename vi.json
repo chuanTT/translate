@@ -333,5 +333,8 @@
     "please_enter_the_group_id_here!": "Vui lòng nhập ID Nhóm tại đây!",
     "switch_accounts_if_consecutive_errors_occur": "Chuyển tài khoản nễu lỗi liên tiếp",
     "enter_the_join_answer_here!": "Nhập câu trả lời Tham gia tại đây!"
-  }
+  },
+  "hehe": "Có nhiều cách",
+  "haha": { ":)": "haha", ":))": { "hihi": "ssss" } },
+  "hahass": { "hehe": { "kaka": "sss" } }
 }
