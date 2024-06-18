@@ -1,0 +1,841 @@
+{
+  "auth": [
+    { "key": "Log out", "value": "Đăng xuất" },
+    { "key": "Forgot password", "value": "Quên mật khẩu" },
+    { "key": "Do not have an account?", "value": "Bạn chưa có tài khoản?" },
+    { "key": "Create a new account", "value": "Tạo tài khoản mới" },
+    { "key": "Enter", "value": "Nhập" },
+    { "key": "Password", "value": "Mật khẩu" },
+    { "key": "Please enter email", "value": "Vui lòng nhập email" },
+    { "key": "Email invalidate", "value": "Email không đúng định dạng" },
+    { "key": "Please enter a password", "value": "Vui lòng nhập mật khẩu" },
+    {
+      "key": "Minimum password 4 characters",
+      "value": "Mật khẩu tối thiểu 4 kí tự"
+    }
+  ],
+  "pages": [
+    { "key": "Account management", "value": "Quản lý tài khoản" },
+    { "key": "Content Management", "value": "Quản lý nội dung" },
+    { "key": "Group management", "value": "Quản lý nhóm" },
+    { "key": "Profile function", "value": "Chức năng profile" },
+    { "key": "Posting post", "value": "Đăng bài" },
+    { "key": "Comment by UID", "value": "Bình luận theo UID" },
+    { "key": "Comment by keyword", "value": "Bình luận theo từ khóa" },
+    { "key": "Texting by UID", "value": "Nhắn tin theo UID" },
+    { "key": "Seeding articles", "value": "Seeding bài viết" },
+    { "key": "Advanced article seeding", "value": "Seeding bài viết nâng cao" },
+    { "key": "Personal interaction", "value": "Tương tác cá nhân" },
+    { "key": "Post profile videos", "value": "Đăng video profile" },
+    { "key": "Scan posts from UID", "value": "Quét bài viết từ UID" },
+    { "key": "Reply to comments", "value": "Trả lời bình luận" },
+    { "key": "Group posting history", "value": "Lịch sử đăng nhóm" },
+    { "key": "Group function", "value": "Chức năng group" },
+    { "key": "Group posting", "value": "Đăng bài nhóm" },
+    { "key": "Group posting by UID", "value": "Đăng bài nhóm theo UID" },
+    { "key": "Join group", "value": "Tham gia nhóm" },
+    { "key": "Group comments", "value": "Bình luận nhóm" },
+    { "key": "Page function", "value": "Chức năng page" },
+    { "key": "Scan profile page", "value": "Quét page profile" },
+    { "key": "Post Reels Facebook", "value": "Đăng Reels Facebook" },
+    { "key": "Post videos", "value": "Đăng video" },
+    { "key": "Page interactions", "value": "Tương tác page" },
+    { "key": "Posting history", "value": "Lịch sử đăng bài" },
+    { "key": "Create profile page", "value": "Tạo page profile" },
+    {
+      "key": "Accept the admin invitation",
+      "value": "Chấp nhận lời mời quản trị"
+    },
+    { "key": "Administer profile pages", "value": "Quản trị page profile" },
+    { "key": "Unlock function", "value": "Chức năng mở khóa" },
+    { "key": "Unlock form 956", "value": "Mở khóa dạng 956" },
+    { "key": "Unlock form 282", "value": "Mở khóa dạng 282" },
+    { "key": "Unlock Mail", "value": "Mở khóa Mail" },
+    { "key": "Schedule", "value": "Lập lịch" },
+    { "key": "Add posting schedule", "value": "Thêm lịch đăng" },
+    { "key": "Running", "value": "Đang chạy" }
+  ],
+  "general_management": [
+    { "key": "Setting", "value": "Cài đặt" },
+    { "key": "User manual", "value": "Hướng dẫn sử dụng" },
+    { "key": "Notification", "value": "Thông báo" },
+    { "key": "Rules", "value": "Điều khoản" }
+  ],
+  "partial": [
+    { "key": "Create Account", "value": "Tạo tài khoản" },
+    { "key": "Reload", "value": "Tải lại" },
+    { "key": "Select display columns", "value": "Ẩn hiển cột" },
+    { "key": "Account list", "value": "Danh sách tài khoản" },
+    { "key": "Category management", "value": "Quản lý danh mục" },
+    { "key": "Add categories", "value": "Thêm danh mục" },
+    { "key": "Add", "value": "Thêm" },
+    { "key": "Total", "value": "Tổng" },
+    { "key": "Delete all", "value": "Xóa toàn bộ" },
+    { "key": "Trash can", "value": "Thùng rác" },
+    { "key": "Close chrome", "value": "Đóng chrome" },
+    { "key": "Trash can", "value": "Thùng rác" },
+    { "key": "Edit", "value": "Chỉnh sửa" },
+    { "key": "Delete", "value": "Xóa" },
+    { "key": "Search", "value": "Tìm kiếm" },
+    { "key": "Category name", "value": "Tên danh mục" },
+    { "key": "Cancel", "value": "Hủy" },
+    { "key": "Attached photo", "value": "Kèm ảnh" },
+    { "key": "Add content", "value": "Thêm nội dung" },
+    { "key": "No photos included", "value": "Không kèm ảnh" },
+    { "key": "Select", "value": "Chọn" },
+    { "key": "Account category", "value": "Danh mục tài khoản" },
+    { "key": "Add group", "value": "Thêm nhóm" },
+    { "key": "Group management", "value": "Quản lý nhóm" },
+    { "key": "Censorship", "value": "Kiểm duyệt" },
+    { "key": "No censorship", "value": "Không kiểm duyệt" },
+    { "key": "Content", "value": "Nội dung" },
+    {
+      "key": "Total number of content selected to post",
+      "value": "Tổng số nội dung chọn đăng"
+    },
+    {
+      "key": "Profile posting configuration",
+      "value": "Cấu hình đăng bài Profile"
+    },
+    {
+      "key": "Switch account if posting error",
+      "value": "Chuyển tài khoản nếu đăng lỗi"
+    },
+    {
+      "key": "When the account performs an error exceeding the allowed number of times, it will be stopped and transferred to another account to avoid being locked",
+      "value": "Khi tài khoản thực hiện hành động bị lỗi vượt quá số lần cho phép sẽ bị dừng và chuyển sang tài khoản khác để tránh bị khóa tài khoản"
+    },
+    {
+      "key": "Switch accounts after posting",
+      "value": "Chuyển tài khoản sau khi đăng"
+    },
+    {
+      "key": "Gap between 2 consecutive postings",
+      "value": "Khoản cách 2 lần đăng liên tiếp"
+    },
+    {
+      "key": "Time stops waiting for the next action",
+      "value": "Thời gian dừng chờ lượt hành động tiếp theo"
+    },
+    { "key": "Randomly post articles", "value": "Đăng ngẫu nhiên bài viết" },
+    { "key": "Posted in order", "value": "Đăng theo thứ tự" },
+    {
+      "key": "Allow duplicate posts between accounts",
+      "value": "Cho phép đăng trùng bài viết giữa các tài khoản"
+    },
+    {
+      "key": "Waiting time for photo upload",
+      "value": "Thời gian chờ tải ảnh lên"
+    },
+    { "key": "Posts", "value": "Bài viết" },
+    { "key": "Second", "value": "Giây" },
+    {
+      "key": "Attach background image when posting status",
+      "value": "Kèm ảnh background khi đăng trạng thái"
+    },
+    { "key": "Turn around later", "value": "Quay vòng sau" },
+    { "key": "Stop spinning later", "value": "Dừng quay vòng sau" },
+    {
+      "key": "Total number of content selected for comment",
+      "value": "Tổng số nội dung chọn để bình luận"
+    },
+    {
+      "key": "Configure profile comments by UID",
+      "value": "Cấu hình bình luận profile theo UID"
+    },
+    {
+      "key": "Switch account if consecutive errors occur",
+      "value": "Chuyển tài khoản nếu lỗi liên tiếp"
+    },
+    {
+      "key": "Maximum comments per account",
+      "value": "Mỗi tài khoản bình luận tối đa"
+    },
+    { "key": "Times", "value": "Lần" },
+    { "key": "Per comment max", "value": "Mỗi bình luận tối đa" },
+    { "key": "Distance between 2 posts", "value": "Khoảng cách 2 lần đăng" },
+    { "key": "Comment by UID list", "value": "Bình luận theo danh sách UID" },
+    { "key": "Random selection", "value": "Chọn ngẫu nhiên" },
+    { "key": "In order", "value": "Theo thứ tự" },
+    { "key": "Please enter UID here!", "value": "Vui lòng nhập UID tại đây!" },
+    {
+      "key": "Allow duplicate UID to comment between accounts",
+      "value": "Cho phép vào trùng UID để bình luận giữa các tài khoản"
+    },
+    {
+      "key": "Each group / keyword comments",
+      "value": "Mỗi nhóm / từ khóa bình luận"
+    },
+    {
+      "key": "Automatically delete group ID after joining",
+      "value": "Tự động xóa ID nhóm sau khi tham gia"
+    },
+    {
+      "key": "Enter your participation answer here!",
+      "value": "Nhập câu trả lời tham gia tại đây!"
+    },
+    {
+      "key": "Allows you to retrieve commented content",
+      "value": "Cho phép lấy lại nội dung đã bình luận"
+    },
+    { "key": "Search in groups", "value": "Tìm kiếm trong nhóm" },
+    {
+      "key": "Enter the group ID here. One line per group ID",
+      "value": "Nhập ID nhóm vào đây. Mỗi ID nhóm một dòng"
+    },
+    {
+      "key": "Please enter keywords here. One keyword per line",
+      "value": "Vui lòng nhập từ khóa vào đây. Mỗi từ khóa một dòng"
+    },
+    { "key": "Keywords to search", "value": "Từ khóa để tìm kiếm" },
+    { "key": "Filter by recent posts", "value": "Lọc theo bài viết gần đây" },
+    { "key": "Filter by viewed posts", "value": "Lọc theo bài viết đã xem" },
+    {
+      "key": "Select articles one by one to comment on",
+      "value": "Chọn lần lượt bài viết để bình luận"
+    },
+    { "key": "Configure UID messaging", "value": "Cấu hình nhắn tin UID" },
+    {
+      "key": "Maximum reply per account",
+      "value": "Mỗi tài khoản reply tối đa"
+    },
+    { "key": "Distance between 2 replies", "value": "Khoảng cách 2 lần reply" },
+    { "key": "Text UID in File", "value": "Nhắn tin UID trong File" },
+    {
+      "key": "Automatically delete the UID commented in the above File!",
+      "value": "Tự động xóa UID đã bình luận trong File trên!"
+    },
+    {
+      "key": "Do not use the same UID to comment between profiles",
+      "value": "Không vào trùng UID để bình luận giữa các profile"
+    },
+    {
+      "key": "Randomly comment on UID personal page",
+      "value": "Bình luận ngẫu nhiên vào trang cá nhân UID"
+    },
+    {
+      "key": "Enter comment content here. One comment per line",
+      "value": "Nhập nội dung bình luận vào đây.Mỗi nội dung bình luận một dòng"
+    },
+    {
+      "key": "Text message list of UIDs one by one",
+      "value": "Nhắn tin lần lượt danh sách UID"
+    },
+    {
+      "key": "Randomly text UID list",
+      "value": "Nhắn tin ngẫu nhiên danh sách UID"
+    },
+    {
+      "key": "Configure article seeding",
+      "value": "Cấu hình Seeding bài viết"
+    },
+    {
+      "key": "Distance of 2 interactions",
+      "value": "Khoảng cách 2 lần tương tác"
+    },
+    {
+      "key": "Enter the article ID here. One line per post ID",
+      "value": "Nhập ID bài viết vào đây. Mỗi ID bài viết một dòng"
+    },
+    {
+      "key": "Check here if it is Livestream ID",
+      "value": "Tích vào đây nếu là ID Livestream"
+    },
+    { "key": "Release emotions", "value": "Thả cảm xúc" },
+    { "key": "Surprised", "value": "Ngạc nhiên" },
+    { "key": "Angry", "value": "Tức giận" },
+    { "key": "Random", "value": "Ngẫu nhiên" },
+    { "key": "Comment on the article", "value": "Bình luận bài viết" },
+    {
+      "key": "Comments with duplicate content are allowed",
+      "value": "Cho phép bình luận trùng nội dung"
+    },
+    {
+      "key": "Comment with content compiled from text file",
+      "value": "Bình luận bằng nội dung soạn từ File text"
+    },
+    {
+      "key": "Please enter article comment content here. One line per content!",
+      "value": "Vui lòng nhập nội dung bình luận bài viết vào đây. Mỗi nội dung một dòng!"
+    },
+    {
+      "key": "Enter the list: Article ID | seeding number here. One line per content",
+      "value": "Nhập danh sách: ID bài viết | số seeding vào đây. Mỗi nội dung một dòng"
+    },
+    { "key": "Action", "value": "Hành động" },
+    {
+      "key": "Switch account if there is an error",
+      "value": "Chuyển tài khoản nếu thực lỗi"
+    },
+    {
+      "key": "Distance 2 times the action",
+      "value": "Khoảng cách 2 lần hành động"
+    },
+    { "key": "Basic interaction", "value": "Tương tác cơ bản" },
+    { "key": "Read the announcement", "value": "Đọc thông báo" },
+    { "key": "Surf message boards", "value": "Lướt bảng tin" },
+    { "key": "Surf Stories", "value": "Lướt Story" },
+    {
+      "key": "Like the message board post",
+      "value": "Thích bài viết bảng tin"
+    },
+    { "key": "Surf videos on watch", "value": "Lướt video trên watch" },
+    { "key": "Like the video on watch", "value": "Thích video trên watch" },
+    {
+      "key": "Randomly follow the owner who posts the video",
+      "value": "Theo dõi ngẫu nhiên chủ đăng video"
+    },
+    { "key": "Advanced interaction", "value": "Tương tác nâng cao" },
+    { "key": "Anti-Spam", "value": "Kháng Spam" },
+    { "key": "Spam news", "value": "Tin spam" },
+    { "key": "Change account language", "value": "Đổi ngôn ngữ tài khoản" },
+    {
+      "key": "Get all account information",
+      "value": "Lấy toàn bộ thông tin tài khoản"
+    },
+    {
+      "key": "Sign out of all devices after interactions",
+      "value": "Đăng xuất khỏi tất cả các thiết bị sau khi tương tác"
+    },
+    {
+      "key": "Enter comment content here. Each content is 1 line",
+      "value": "Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng"
+    },
+    {
+      "key": "Configure profile comments by keywords",
+      "value": "Cấu hình bình luận profile theo từ khóa"
+    },
+    {
+      "key": "Like randomly on UID personal page",
+      "value": "Like ngẫu nhiên vào trang cá nhân UID"
+    },
+    {
+      "key": "Please enter the article comment content here. One line per content!",
+      "value": "Vui lòng nhập nội dung comment bài viết vào đây. Mỗi nội dung một dòng!"
+    },
+    {
+      "key": "Configure account interactions",
+      "value": "Cấu hình tương tác tài khoản"
+    },
+    {
+      "key": "Total number of interactive actions",
+      "value": "Tổng số hành động tương tác"
+    },
+    {
+      "key": "Configuring profile video posting",
+      "value": "Cấu hình đăng video profile"
+    },
+    {
+      "key": "Each account progresses posting",
+      "value": "Mỗi tài khoản tiến hàng đăng"
+    },
+    { "key": "Video upload wait time", "value": "Thời gian chờ tải video lên" },
+    {
+      "key": "Allows duplicate videos to be posted between Profiles",
+      "value": "Cho phép đăng trùng video giữa các Profile"
+    },
+    {
+      "key": "Please enter the video descriptions here. Each description on a separate line!",
+      "value": "Vui lòng nhập video mô tả video vào đây. Mỗi nội dung một dòng!"
+    },
+    { "key": "List of selected videos", "value": "Danh sách video đã chọn" },
+    {
+      "key": "Total number of scanned content",
+      "value": "Tổng số nội dung đã quét được"
+    },
+    {
+      "key": "Configure article scanning by UID",
+      "value": "Cấu hình quét bài viết theo UID"
+    },
+    { "key": "Each account scans max", "value": "Mỗi tài khoản quét tối đa" },
+    { "key": "Each UID scans max", "value": "Mỗi UID quét tối đa" },
+    { "key": "Interval between 2 scans", "value": "Khoảng cách 2 lần quét" },
+    { "key": "Save the article", "value": "Lưu bài viết vào" },
+    { "key": "Select article", "value": "Chọn bài viết" },
+    {
+      "key": "Please enter the ID (Support: UID, PAGE ID or PAGEPROFILE) here. One ID per line!",
+      "value": "Vui lòng nhập ID ( Hỗ trợ: UID, ID PAGE hoặc PAGEPROFILE ) vào đây. Mỗi ID một dòng!"
+    },
+    {
+      "key": "Check here if the ID entered is Page ID or Page Profile ID",
+      "value": "Tích vào đây nếu ID nhập vào là ID Page hoặc ID Page Profile"
+    },
+    { "key": "Save article", "value": "Lưu bài viết" },
+    {
+      "key": "Total number of contents selected to reply",
+      "value": "Tổng số nội dung chọn để reply"
+    },
+    {
+      "key": "Configure reply to article comments",
+      "value": "Cấu hình trả lời bình luận bài viết"
+    },
+    { "key": "Maximum replies per post", "value": "Mỗi bài viết reply tối đa" },
+    {
+      "key": "Reply by Post ID list",
+      "value": "Reply theo danh sách ID Bài viết"
+    },
+    {
+      "key": "Please enter article ID here!",
+      "value": "Vui lòng nhập ID bài viết tại đây!"
+    },
+    {
+      "key": "Allow duplicate posts to reply between accounts",
+      "value": "Cho phép trùng bài viết để reply giữa các tài khoản"
+    },
+    {
+      "key": "Automatically delete commented IDs when following the list of post IDs above!",
+      "value": "Tự động xóa ID đã bình luận khi chạy theo danh sách ID bài viết trên!"
+    },
+    {
+      "key": "Allows you to retrieve Reply content",
+      "value": "Cho phép lấy lại nội dung đã Reply"
+    },
+    { "key": "History type", "value": "Loại lịch sử" },
+    { "key": "Export Excel", "value": "Xuất Excel" },
+    { "key": "List of links", "value": "Danh sách links" },
+    {
+      "key": "Total number of groups that choose to post",
+      "value": "Tổng số nhóm chọn đăng"
+    },
+    { "key": "Configure group posting", "value": "Cấu hình đăng bài nhóm" },
+    { "key": "All accounts post max", "value": "Tất cả tài khoản đăng tối đa" },
+    { "key": "Each account posts max", "value": "Mỗi tài khoản đăng tối đa" },
+    { "key": "Group", "value": "Nhóm" },
+    { "key": "Post to selected groups", "value": "Đăng theo nhóm đã chọn" },
+    { "key": "Post by account group", "value": "Đăng theo nhóm của tài khoản" },
+    { "key": "Post by group ID list", "value": "Đăng theo danh sách ID nhóm" },
+    {
+      "key": "Please enter Group ID here!",
+      "value": "Vui lòng nhập ID Nhóm vào đây!"
+    },
+    { "key": "Take the group along", "value": "Lấy nhóm theo" },
+    {
+      "key": "Allows duplicate group posting between accounts",
+      "value": "Cho phép đăng trùng nhóm giữa các tài khoản"
+    },
+    {
+      "key": "Allow duplicate posts between accounts",
+      "value": "Cho phép đăng trùng bài viết giữa các tài khoản"
+    },
+    {
+      "key": "Allows automatic joining of unjoined groups",
+      "value": "Cho phép tự động tham gia nhóm chưa tham gia"
+    },
+    {
+      "key": "Comment on the post after it is successfully posted",
+      "value": "Bình luận vào bài viết sau khi đăng thành công"
+    },
+    {
+      "key": "Please enter article comment content here. One line per content!",
+      "value": "Vui lòng nhập nội dung bình luận bài viết vào đây. Mỗi nội dung một dòng!"
+    },
+    {
+      "key": "Group interaction before posting",
+      "value": "Tương tác nhóm trước khi đăng bài"
+    },
+    { "key": "Surf newsfeed", "value": "Lướt newfeed" },
+    { "key": "Like the group post", "value": "Like bài viết nhóm" },
+    { "key": "Comment on group posts", "value": "Bình luận bài viết nhóm" },
+    {
+      "key": "Like and comment on group posts",
+      "value": "Like bình luận bài viết nhóm"
+    },
+    { "key": "Comment", "value": "Bình luận" },
+    {
+      "key": "Please enter your comment here. 1 line per content!",
+      "value": "Vui lòng nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng!"
+    },
+    {
+      "key": "Configure group posting by Group ID",
+      "value": "Cấu hình đăng bài nhóm theo ID Nhóm"
+    },
+    {
+      "key": "Switch account after posting",
+      "value": "Chuyển tài khoản sau đăng"
+    },
+    { "key": "Post by group ID list", "value": "Đăng theo danh sách ID nhóm" },
+    {
+      "key": "Post to your account's joined groups",
+      "value": "Đăng vào nhóm đã tham gia của tài khoản"
+    },
+    {
+      "key": "Do not post in the same group",
+      "value": "Không đăng trùng nhóm"
+    },
+    { "key": "Configure article scanning", "value": "Cấu hình quét bài viết" },
+    {
+      "key": "Enter UID to get the post. Each UID is separated by ','",
+      "value": "Nhập UID lấy bài. Mỗi UID cách nhau dấu ','"
+    },
+    { "key": "Enter the Posting Group ID", "value": "Nhập ID Nhóm lấy bài" },
+    { "key": "Each UID scans out", "value": "Mỗi UID quét ra" },
+    { "key": "Configure and edit posts", "value": "Cấu hình chỉnh bài viết" },
+    { "key": "Select post type", "value": "Chọn dạng bài đăng" },
+    { "key": "Content article", "value": "Bài viết nội dung" },
+    { "key": "Enter the Spin structure", "value": "Nhập cấu trúc Spin" },
+    {
+      "key": "Delete content. Retain images + Content",
+      "value": "Xóa nội dung. Giữ lại hình ảnh + Nội dung"
+    },
+    {
+      "key": "Total number of opt-in groups",
+      "value": "Tổng số nhóm chọn tham gia"
+    },
+    {
+      "key": "Switch account after joining",
+      "value": "Chuyển tài khoản sau tham gia"
+    },
+    {
+      "key": "Change keywords when each account joins",
+      "value": "Đổi từ khóa khi tài khoản tham gia mỗi"
+    },
+    {
+      "key": "Scan the account's group information",
+      "value": "Quét thông tin nhóm của tài khoản"
+    },
+    { "key": "Join by group ID", "value": "Tham gia theo ID nhóm" },
+    {
+      "key": "Please enter group ID list here!",
+      "value": "Vui lòng nhập danh sách ID nhóm tại đây!"
+    },
+    { "key": "Join by keyword", "value": "Tham gia theo từ khóa" },
+    {
+      "key": "Please enter keywords here. One keyword per line",
+      "value": "Vui lòng nhập từ khóa vào đây. Mỗi từ khóa một dòng"
+    },
+    {
+      "key": "Automatically delete group ID after joining group",
+      "value": "Tự động xóa ID nhóm sau khi tham gia nhóm"
+    },
+    { "key": "Select group ID in turn", "value": "Chọn lần lượt ID nhóm" },
+    { "key": "Randomize the group ID", "value": "Chọn ngẫu nhiên ID nhóm" },
+    {
+      "key": "Total number of groups that choose to comment",
+      "value": "Tổng số nhóm chọn bình luận"
+    },
+    {
+      "key": "Total number of content selected for comment",
+      "value": "Tổng số nội dung chọn để bình luận"
+    },
+    {
+      "key": "Configure group comments by UID",
+      "value": "Cấu hình bình luận nhóm theo UID"
+    },
+    {
+      "key": "Each group comments maximum",
+      "value": "Mỗi nhóm bình luận tối đa"
+    },
+    { "key": "Posts / Groups", "value": "Bài viết / Nhóm" },
+    { "key": "Spacing 2 comments", "value": "Khoảng cách 2 lần bình luận" },
+    {
+      "key": "Comment according to the Group ID list",
+      "value": "Bình luận theo danh sách ID Group"
+    },
+    {
+      "key": "Allow duplicate groups to comment between accounts",
+      "value": "Cho phép trùng nhóm để bình luận giữa các tài khoản"
+    },
+    {
+      "key": "Automatically delete commented UIDs when running according to the group ID list above!",
+      "value": "Tự động xóa UID đã bình luận khi chạy theo danh sách ID nhóm trên!"
+    },
+    {
+      "key": "Page Profile scan configuration",
+      "value": "Cấu hình quét Page Profile"
+    },
+    { "key": "Resting distance", "value": "Khoảng cách dừng nghỉ" },
+    {
+      "key": "Get the PageProfile group list",
+      "value": "Lấy danh sách nhóm của PageProfile"
+    },
+    {
+      "key": "Configure posting page profile",
+      "value": "Cấu hình đăng bài page profile"
+    },
+    {
+      "key": "Each profile page posts maximum",
+      "value": "Mỗi page profile đăng tối đa"
+    },
+    {
+      "key": "Gap between 2 consecutive postings",
+      "value": "Khoảng cách 2 lần đăng liên tiếp"
+    },
+    { "key": "Randomly post posts", "value": "Đăng ngẫu nhiên bài đăng" },
+    { "key": "Posted in order", "value": "Đăng theo thứ tự" },
+    {
+      "key": "Allow duplicate posts between Page profiles",
+      "value": "Cho phép đăng trùng bài viết giữa các Page profile"
+    },
+    {
+      "key": "Configure profile page comments according to UID",
+      "value": "Cấu hình bình luận page profile theo UID"
+    },
+    {
+      "key": "Switch PageProfile if error",
+      "value": "Chuyển PageProfile nếu lỗi"
+    },
+    {
+      "key": "Per PageProfile maximum comments",
+      "value": "Mỗi PageProfile bình luận tối đa"
+    },
+    {
+      "key": "Allow comments with duplicate UID between profile pages",
+      "value": "Cho phép bình luận trùng UID giữa các page profile"
+    },
+    {
+      "key": "Reel Page Profile post configuration",
+      "value": "Cấu hình đăng Reel Page Profile"
+    },
+    { "key": "Each Page profile posted", "value": "Mỗi Page profile đăng" },
+    {
+      "key": "Total number of videos to post Reels Profile",
+      "value": "Tổng số video để đăng Reels Profile"
+    },
+    {
+      "key": "Seeding Reels after posting",
+      "value": "Seeding Reels sau khi đăng"
+    },
+    {
+      "key": "Like the video Reels posted successfully",
+      "value": "Like video Reels đăng thành công"
+    },
+    {
+      "key": "Comment on Reels video posted successfully",
+      "value": "Bình luận video Reels đăng thành công"
+    },
+    {
+      "key": "Enter comment content here. One line of content per line",
+      "value": "Nhập nội dung bình luận vào đây. Mỗi nội dung một dòng"
+    },
+    {
+      "key": "Configuring video posting on profile page",
+      "value": "Cấu hình đăng video page profile"
+    },
+    {
+      "key": "Each PageProfile proceeds to post",
+      "value": "Mỗi PageProfile tiến hành đăng"
+    },
+    {
+      "key": "Switch PageProfile if posting error",
+      "value": "Chuyển PageProfile nếu đăng lỗi"
+    },
+    {
+      "key": "Allows duplicate videos to be posted between Page profiles",
+      "value": "Cho phép đăng trùng video giữa các Page profile"
+    },
+    {
+      "key": "Please enter video description here. One line per content!",
+      "value": "Vui lòng nhập mô tả video vào đây. Mỗi nội dung một dòng!"
+    },
+    {
+      "key": "Total number of selected videos",
+      "value": "Tổng số video đã chọn"
+    },
+    {
+      "key": "Configure the group joining page",
+      "value": "Cấu hình page tham gia nhóm"
+    },
+    {
+      "key": "Maximum participation per account",
+      "value": "Mỗi tài khoản tham gia tối đa"
+    },
+    {
+      "key": "Switch PageProfile after joining",
+      "value": "Chuyển PageProfile sau tham gia"
+    },
+    {
+      "key": "Distance of 2 participation times",
+      "value": "Khoảng cách 2 lần tham gia"
+    },
+    {
+      "key": "Join by Group ID list",
+      "value": "Tham gia theo danh sách ID Nhóm"
+    },
+    {
+      "key": "Allows joining groups between Pages",
+      "value": "Cho phép tham gia trùng nhóm giữa các Page"
+    },
+    {
+      "key": "Enter your answer in the group!",
+      "value": "Nhập câu trả lời vào nhóm!"
+    },
+    {
+      "key": "Automatically delete UIDs that have joined the group when running according to the group ID list above!",
+      "value": "Tự động xóa UID đã tham gia nhóm khi chạy theo danh sách ID nhóm trên!"
+    },
+    {
+      "key": "Join the group list one by one",
+      "value": "Tham gia lần lượt danh sách nhóm"
+    },
+    {
+      "key": "Randomly join the group list",
+      "value": "Tham gia ngẫu nhiên danh sách nhóm"
+    },
+    { "key": "Join by keyword", "value": "Tham gia theo từ khóa" },
+    {
+      "key": "Please enter keywords here. One keyword per line",
+      "value": "Vui lòng nhập từ khóa vào đây. Mỗi từ khóa một dòng"
+    },
+    {
+      "key": "Configure the page to post to the group",
+      "value": "Cấu hình page đăng bài vào nhóm"
+    },
+    {
+      "key": "Allow duplicate group posting between Pages",
+      "value": "Cho phép đăng trùng nhóm giữa các Page"
+    },
+    {
+      "key": "Select to automatically join unjoined groups",
+      "value": "Chọn phép tự động tham gia nhóm chưa tham gia"
+    },
+    {
+      "key": "Comment by group ID list",
+      "value": "Bình luận theo danh sách ID nhóm"
+    },
+    {
+      "key": "Please enter group ID here!",
+      "value": "Vui lòng nhập ID nhóm tại đây!"
+    },
+    {
+      "key": "Allow entering the same group to comment between Pages",
+      "value": "Cho phép vào trùng nhóm để bình luận giữa các Page"
+    },
+    {
+      "key": "Configure post interactions by ID",
+      "value": "Cấu hình tương tác bài viết theo ID"
+    },
+    {
+      "key": "Share about Story Page Profile",
+      "value": "Chia sẻ về Story Page Profile"
+    },
+    {
+      "key": "Please enter the content to share the article here. One line per content!",
+      "value": "Vui lòng nhập nội dung chia sẻ bài viết vào đây. Mỗi nội dung một dòng!"
+    },
+    {
+      "key": "Configure group participation by UID",
+      "value": "Cấu hình tham gia nhóm theo UID"
+    },
+    {
+      "key": "Enter ID here. One ID per line",
+      "value": "Nhập ID vào đây. Mỗi ID một dòng"
+    },
+    { "key": "Like Page", "value": "Thích Page" },
+    { "key": "Follow Page", "value": "Theo dõi Page" },
+    { "key": "Share random articles", "value": "Chia sẻ bài viết ngẫu nhiên" },
+    { "key": "Page Review", "value": "Đánh giá Page" },
+    {
+      "key": "Allows rating duplicate content",
+      "value": "Cho phép đánh giá trùng nội dung"
+    },
+    {
+      "key": "Please enter Page review content here. One line of content per line. Attention! Each review content must be more than 25 characters",
+      "value": "Vui lòng nhập nội dung đánh giá Page vào đây. Mỗi nội dung một dòng. Chú ý! Mỗi nội dung đánh giá phải nhiều hơn 25 kí tự"
+    },
+    {
+      "key": "Configure Page Profile creation",
+      "value": "Cấu hình tạo Page Profile"
+    },
+    {
+      "key": "Distance 2 times to create a page",
+      "value": "Khoảng cách 2 lần tạo page"
+    },
+    {
+      "key": "Each account generates max",
+      "value": "Mỗi tài khoản tạo tối đa"
+    },
+    { "key": "Randomly from file", "value": "Ngẫu nhiên từ file" },
+    { "key": "Enter the Page name here", "value": "Nhập tên Page vào đây" },
+    { "key": "Account name", "value": "Tên tài khoản" },
+    { "key": "Randomly import content", "value": "Nhập ngẫu nhiên nội dung" },
+    { "key": "Randomly enter categories", "value": "Nhập ngẫu nhiên danh mục" },
+    { "key": "Category", "value": "Danh mục" },
+    {
+      "key": "Enter a description here",
+      "value": "Nhập nội dung mô tả vào đây"
+    },
+    {
+      "key": "Add contact information and invite friends",
+      "value": "Thêm thông tin liên hệ và mời bạn bè"
+    },
+    { "key": "Add phone number", "value": "Thêm số điện thoại" },
+    {
+      "key": "Randomly enter phone number",
+      "value": "Nhập ngẫu nhiên số điện thoại"
+    },
+    { "key": "Randomly enter website", "value": "Nhập ngẫu nhiên website" },
+    { "key": "Randomly enter email", "value": "Nhập ngẫu nhiên mail" },
+    { "key": "Invite random friends", "value": "Mời ngẫu nhiên bạn bè" },
+    { "key": "Avatar folder", "value": "Thư mục Avatar" },
+    { "key": "Cover folder", "value": "Thư mục Cover" },
+    {
+      "key": "Do not duplicate avatar images",
+      "value": "Không trùng ảnh avatar"
+    },
+    { "key": "Does not overlap cover photo", "value": "Không trùng ảnh cover" },
+    { "key": "Stop when uploading photos", "value": "Dừng khi upload ảnh" },
+    {
+      "key": "Configure to accept page administration",
+      "value": "Cấu hình chấp nhận quản trị page"
+    },
+    {
+      "key": "The distance is 2 invitations",
+      "value": "Khoảng cách 2 lần mời"
+    },
+    {
+      "key": "Each page progresses with acceptance",
+      "value": "Mỗi page tiến hàng chấp nhận"
+    },
+    {
+      "key": "Change page if error is accepted",
+      "value": "Chuyển page nếu chấp nhận lỗi"
+    },
+    {
+      "key": "Accept all page administration requests",
+      "value": "Chấp nhận toàn bộ yêu cầu quản trị page"
+    },
+    {
+      "key": "When the Page Profile performs an error exceeding the allowed number of times, it will be stopped and transferred to another Page Profile to avoid being locked out of the account",
+      "value": "Khi Page Profile thực hiện hành động bị lỗi vượt quá số lần cho phép sẽ bị dừng và chuyển sang Page Profile khác để tránh bị khóa tài khoản"
+    },
+    { "key": "Configure set amdin page", "value": "Cấu hình set amdin page" },
+    { "key": "Each Page invites", "value": "Mỗi Page tiến hành mời" },
+    { "key": "Transfer invitation page error", "value": "Chuyển Page mời lỗi" },
+    {
+      "key": "Scan the account's PageProfile list",
+      "value": "Quét danh sách PageProfile của tài khoản"
+    },
+    {
+      "key": "Allow inviting the same UID as Admin Page5",
+      "value": "Cho phép mời trùng UID làm Admin Page5"
+    },
+    {
+      "key": "If there are no duplicates, the UID will automatically be deleted after being invited to admin 1 PagePro5",
+      "value": "Nếu không có trùng sẽ tự động xóa UID sau khi được mời quản trị 1 PagePro5"
+    },
+    {
+      "key": "Please list UID as ADMIN here. One UID per line!",
+      "value": "Vui lòng danh sách UID làm ADMIN vào đây. Mỗi UID một dòng!"
+    },
+    { "key": "Configure set amdin page", "value": "Cấu hình set amdin page" },
+    { "key": "Configure set amdin page", "value": "Cấu hình set amdin page" },
+    { "key": "Configure set amdin page", "value": "Cấu hình set amdin page" },
+    { "key": "Configure set amdin page", "value": "Cấu hình set amdin page" },
+    {
+      "key": "Total number of groups selected to comment",
+      "value": "Tổng số nhóm chọn để bình luận"
+    },
+    {
+      "key": "Please enter the Group ID here!",
+      "value": "Vui lòng nhập ID Nhóm tại đây!"
+    },
+    {
+      "key": "Switch accounts if consecutive errors occur",
+      "value": "Chuyển tài khoản nễu lỗi liên tiếp"
+    },
+    {
+      "key": "Enter the Join answer here!",
+      "value": "Nhập câu trả lời Tham gia tại đây!"
+    }
+  ]
+}
