@@ -44,7 +44,7 @@ const funcObjChild = (currentValue) => {
             ...totalChild,
             [keyStr]: arrCurrent,
           };
-        } else if(!Array.isArray(arrCurrent)) {
+        } else if (!Array.isArray(arrCurrent)) {
           arrCurrent = [arrCurrent];
         }
 
@@ -62,7 +62,7 @@ const funcObjChild = (currentValue) => {
 
 const renderVi = arrKeys.reduce((total, key) => {
   const currentValue = dataJson[key];
-  const newKey = convertViToEn(key)
+  const newKey = convertViToEn(key);
   if (Array.isArray(currentValue)) {
     const objValue = funcObjChild(currentValue);
     return { ...total, [newKey]: objValue };
@@ -80,35 +80,3 @@ const renderVi = arrKeys.reduce((total, key) => {
 }, {});
 
 writeFileSync("./vi.json", JSON.stringify(renderVi));
-
-const readDataFileVi = JSON.parse(
-  readFileSync("./vi.json", {
-    encoding: "utf8",
-  })
-);
-
-
-const arrKeysVi = [];
-
-const functionArr = (obj, arrKeys = [], str = "") => {
-  const arrObj = Object.keys(obj);
-  arrObj?.forEach((key) => {
-    if (typeof obj[key] === "string") {
-      const valueStr = `${str}.${key}`.slice(1);
-      const value = obj[key];
-      const useT = `t('${valueStr}')`;
-      const useJSX = `{${useT}}`;
-      arrKeys.push({
-        key: valueStr,
-        value,
-        useT,
-        useJSX,
-      });
-    } else {
-      functionArr(obj[key], arrKeys, `${str}.${key}`);
-    }
-  });
-};
-
-functionArr(readDataFileVi, arrKeysVi);
-writeFileSync("./useKeys.json", JSON.stringify(arrKeysVi));

@@ -6,9 +6,12 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node index.js && npm run usekey",
+    "usekey": "node useKeys.js",
     "data": "node convertViToData.js",
-    "sd": "node convertViToData.js && node index.js"
+    "sd": "node convertViToData.js && npm run start",
+    "trans": "node translateApi.js && npm run usekey",
+    "toInput": "node dataToInput.js && npm run trans"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +29,7 @@
     "node-gtts": "^2.0.2",
     "node-xlsx": "^0.23.0",
     "stream": "^0.0.2",
+    "user-agents": "^1.1.260",
     "util": "^0.12.5",
     "write-excel-file": "^1.4.29",
     "ytdl-core": "^4.11.5"
