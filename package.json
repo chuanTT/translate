@@ -11,12 +11,14 @@
     "data": "node convertViToData.js",
     "sd": "npm run data && npm run start",
     "trans": "node translateApi.js && npm run usekey",
-    "toInput": "node dataToInput.js && npm run trans"
+    "toInput": "node dataToInput.js && npm run trans",
+    "lngSp": "node language.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsdom": "^24.1.0",
     "node-fetch": "^3.3.2",
     "user-agents": "^1.1.260"
   }

@@ -1,10 +1,7 @@
-import { readFileSync, writeFileSync } from "fs";
+import { writeFileSync } from "fs";
+import { readFileToPathLanguage } from "./function.js";
 
-const readDataFileVi = JSON.parse(
-  readFileSync("./vi.json", {
-    encoding: "utf8",
-  })
-);
+const readDataFileVi = readFileToPathLanguage("vi.json");
 
 const arrKeysVi = [];
 

@@ -1,5 +1,6 @@
 import fs from "fs";
 import fetch from "node-fetch";
+import path from "path";
 import UserAgent from "user-agents";
 
 export const awaitAll = (list, asyncFn) => {
@@ -12,13 +13,13 @@ export const awaitAll = (list, asyncFn) => {
   return Promise.all(promises);
 };
 
-export const fetchTranstion = async (q, lng = "en") => {
+export const fetchTranstion = async ({ q, lng1 = "auto", lng2 = "en" }) => {
   const userAgent = new UserAgent();
   const url = new URL(
     "https://t11.freetranslations.org/freetranslationsorg.php"
   );
-  url.searchParams.append("p1", "auto");
-  url.searchParams.append("p2", lng);
+  url.searchParams.append("p1", lng1);
+  url.searchParams.append("p2", lng2);
   url.searchParams.append("p3", q);
 
   const headers = {
@@ -64,4 +65,41 @@ export function convertViToEn(str, toUpperCase = false) {
   return toUpperCase ? str.toUpperCase() : str;
 }
 
-export const readFileToPath = (path) => JSON.parse(fs.readFileSync(path));
+export const funcConvertValue = (target_lang) => {
+  switch (target_lang) {
+    case "zh-CHS":
+      target_lang = "zh-CN";
+      break;
+    case "zh-CHT":
+      target_lang = "zh-TW";
+      break;
+    case "nb":
+      target_lang = "no";
+      break;
+    case "kmr":
+      target_lang = "ku";
+      break;
+    case "mn-Cyrl":
+      target_lang = "mn";
+      break;
+    case "mww":
+      target_lang = "hmn";
+      break;
+  }
+  return target_lang;
+};
+
+export const readFileToPath = (path, isJson = true) =>
+  isJson ? JSON.parse(fs.readFileSync(path)) : fs.readFileSync(path);
+
+export const writeFilePath = (path, data, isJson = true) =>
+  fs.writeFileSync(path, isJson ? JSON.stringify(data) : data);
+
+const __dirname = path.resolve();
+const pathTranslate = path.join(__dirname, "language");
+
+export const readFileToPathLanguage = (...arg) =>
+  readFileToPath(path.join(pathTranslate, arg?.[0] ?? ""), ...arg?.slice(1));
+
+export const writeFileLanguage = (...arg) =>
+  writeFilePath(path.join(pathTranslate, arg?.[0] ?? ""), ...arg?.slice(1));

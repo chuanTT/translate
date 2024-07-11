@@ -1,4 +1,5 @@
 # Tích hợp api dịch
+
 - đầu vào trong config/input.txt
 - lang.txt list ngôn ngữ cần dịch
 
@@ -12,7 +13,6 @@ npm run trans
 npm run toInput
 ```
 
-
 # Chưa tích hợp api dịch
 
 - đầu vào data.json --> vi.json
@@ -22,6 +22,14 @@ npm start
 ```
 
 - đầu vào vi.json --> data.json
+
+```bash
+npm run sd
+```
+
+# khách
+
+- render ngôn ngữ hỗ trợ
 
 ```bash
 npm run sd

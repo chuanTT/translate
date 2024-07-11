@@ -3,7 +3,8 @@ import {
   awaitAll,
   convertViToEn,
   fetchTranstion,
-  readFileToPath,
+  readFileToPathLanguage,
+  writeFileLanguage
 } from "./function.js";
 
 const lang = fs
@@ -51,7 +52,9 @@ const functionTrans = async () => {
     let objChildEn = {};
     let objChildVi = {};
     await awaitAll(current, async (tran) => {
-      const value = await fetchTranstion(tran);
+      const value = await fetchTranstion({
+        q: tran,
+      });
       const newKey = convertViToEn(value);
       if (!newKey) {
         return;
@@ -80,10 +83,10 @@ const functionTrans = async () => {
 
 const data = await functionTrans();
 Object.keys(data).map((lng) =>
-  fs.writeFileSync(`${lng}.json`, JSON.stringify(data?.[lng]))
+  writeFileLanguage(`${lng}.json`, data?.[lng])
 );
 
-const dataVi = readFileToPath("./vi.json");
+const dataVi = readFileToPathLanguage("vi.json");
 await awaitAll(listLang, async (lang) => {
   const arrObj = Object.keys(dataVi);
   let obj = {};
@@ -93,11 +96,15 @@ await awaitAll(listLang, async (lang) => {
     await awaitAll(Object.keys(currentObj), async (keyChild) => {
       const text = currentObj?.[keyChild];
       if (typeof text === "string") {
-        const value = await fetchTranstion(text, lang);
+        const value = await fetchTranstion({
+          q: text,
+          lng2: lang,
+          lng1: "vi"
+        });
         objChild = { ...objChild, [keyChild]: value };
       }
     });
-    obj = {...obj, [key]: objChild}
+    obj = { ...obj, [key]: objChild };
   });
-  fs.writeFileSync(`${lang}.json`, JSON.stringify(obj))
+  writeFileLanguage(`${lang}.json`, obj)
 });
