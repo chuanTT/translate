@@ -1,23 +1,14 @@
-import fs from "fs";
 import {
   awaitAll,
   convertViToEn,
   fetchTranstion,
+  readFileToPathConfig,
   readFileToPathLanguage,
   writeFileLanguage
 } from "./function.js";
 
-const lang = fs
-  .readFileSync("./config/lang.txt", {
-    encoding: "utf8",
-  })
-  .toString();
-
-const inputFile = fs
-  .readFileSync("./config/input.txt", {
-    encoding: "utf8",
-  })
-  .toString();
+const lang = readFileToPathConfig('lang.txt', false).toString()
+const inputFile = readFileToPathConfig('input.txt', false).toString()
 
 const listLang = lang?.split("\r\n");
 const listInputData = inputFile?.split("\r\n");

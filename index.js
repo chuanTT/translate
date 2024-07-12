@@ -1,10 +1,6 @@
-import { readFileSync, writeFileSync } from "fs";
-import { convertViToEn } from "./function.js";
+import { convertViToEn, readFileToPathInput, writeFileLanguage } from "./function.js";
 
-const readDataFile = readFileSync("./data.json", {
-  encoding: "utf8",
-});
-const dataJson = JSON.parse(readDataFile);
+const dataJson = readFileToPathInput("data.json")
 const arrKeys = Object.keys(dataJson);
 
 const convertObjKey = (currentItem, value = "value") => {
@@ -63,4 +59,4 @@ const renderVi = arrKeys.reduce((total, key) => {
   return { ...total, [newKey]: convertObjKey(currentValue) };
 }, {});
 
-writeFileSync("./vi.json", JSON.stringify(renderVi));
+writeFileLanguage("vi.json", renderVi)

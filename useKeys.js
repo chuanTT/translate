@@ -1,5 +1,4 @@
-import { writeFileSync } from "fs";
-import { readFileToPathLanguage } from "./function.js";
+import { readFileToPathLanguage, writeFileUse } from "./function.js";
 
 const readDataFileVi = readFileToPathLanguage("vi.json");
 
@@ -26,4 +25,4 @@ const functionArr = (obj, arrKeys = [], str = "") => {
 };
 
 functionArr(readDataFileVi, arrKeysVi);
-writeFileSync("./useKeys.json", JSON.stringify(arrKeysVi));
+writeFileUse("useKeys.json", arrKeysVi);

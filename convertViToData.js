@@ -1,23 +1,10 @@
-import { readFileSync, writeFileSync } from "fs";
+import {
+  convertKey,
+  readFileToPathLanguage,
+  writeFileInput,
+} from "./function.js";
 
-function capitalize(s) {
-  return s && s[0].toUpperCase() + s.slice(1);
-}
-
-const convertKey = (key) => {
-  let str = key;
-  if (str.indexOf("_")) {
-    str = str.replace(/_+/g, " ");
-  }
-  str = capitalize(str);
-  return str;
-};
-
-const readDataFileVi = JSON.parse(
-  readFileSync("./vi.json", {
-    encoding: "utf8",
-  })
-);
+const readDataFileVi = readFileToPathLanguage("vi.json");
 
 const functionArr = (obj) => {
   const arrObj = Object.keys(obj);
@@ -38,4 +25,4 @@ const functionArr = (obj) => {
 };
 
 const newDataConvert = functionArr(readDataFileVi);
-writeFileSync("./data.json", JSON.stringify(newDataConvert));
+writeFileInput("data.json", newDataConvert);
