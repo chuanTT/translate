@@ -27,7 +27,7 @@ npm start
 npm run sd
 ```
 
-# khách
+# khác
 
 - render ngôn ngữ hỗ trợ
 
