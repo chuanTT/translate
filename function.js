@@ -1,7 +1,10 @@
+import axios from "axios";
 import fs, { appendFileSync } from "fs";
 import fetch from "node-fetch";
 import path from "path";
 import UserAgent from "user-agents";
+
+const BaseGTK = "451769.3009291968";
 
 export const awaitAll = (list, asyncFn) => {
   const promises = [];
@@ -14,7 +17,7 @@ export const awaitAll = (list, asyncFn) => {
 };
 
 export const funTmpnum = (target_lang) => {
-  let tmpnum
+  let tmpnum;
   do {
     if (
       target_lang == "ay" ||
@@ -71,7 +74,7 @@ export const funTmpnum = (target_lang) => {
       tmpnum = Math.floor(Math.random() * 18) + 1;
     }
   } while (tmpnum == 17 || tmpnum == 18);
-  return tmpnum
+  return tmpnum;
 };
 
 export const fetchTranstion = async ({ q, lng1 = "auto", lng2 = "en" }) => {
@@ -162,6 +165,121 @@ export const funcConvertValue = (target_lang) => {
   }
   return target_lang;
 };
+
+// call api trans
+function Shifter(e, t) {
+  for (var r = 0; r < t.length - 2; r += 3) {
+    var o = t.charAt(r + 2);
+    (o = "a" <= o ? o.charCodeAt(0) - 87 : Number(o)),
+      (o = "+" == t.charAt(r + 1) ? e >>> o : e << o),
+      "+" == t.charAt(r) ? (e += 4294967295 & o) : (e ^= o);
+  }
+  return e;
+}
+
+function TQmaker(e) {
+  for (var t = [], r = [], o = 0; o < e.length; o++) {
+    var a = e.charCodeAt(o);
+    128 > a
+      ? (t[r++] = a)
+      : (2048 > a
+          ? (t[r++] = (a >> 6) | 192)
+          : (55296 == (64512 & a) &&
+            o + 1 < e.length &&
+            56320 == (64512 & e.charCodeAt(o + 1))
+              ? ((a = 65536 + ((1023 & a) << 10) + (1023 & e.charCodeAt(++o))),
+                (t[r++] = (a >> 18) | 240),
+                (t[r++] = ((a >> 12) & 63) | 128))
+              : (t[r++] = (a >> 12) | 224),
+            (t[r++] = ((a >> 6) & 63) | 128)),
+        (t[r++] = (63 & a) | 128));
+  }
+  return t;
+}
+
+function GetHash(e, t) {
+  for (
+    var r = t.split("."),
+      o = Number(r[0]) || 0,
+      a = Number(r[1]) || 0,
+      n = TQmaker(e),
+      l = o,
+      s = 0;
+    s < n.length;
+    s++
+  )
+    (l += n[s]), (l = Shifter(l, "+-a^+6"));
+  (l = Shifter(l, "+-3^+b+-f")),
+    (l ^= a) <= 0 && (l = (2147483647 & l) + 2147483648);
+  var c = l % 1e6;
+  return c.toString() + "." + (c ^ o);
+}
+
+const replaceLanguage = (lang) => {
+  switch (lang) {
+    case "zh":
+      return "zh-CN";
+    case "zt":
+      return "zh-TW";
+    case "tlsl":
+      return "tl";
+    case "srsl":
+      return "sr";
+    default:
+      return lang;
+  }
+};
+
+const replaceSingle = (text) => {
+  let newText = text.replace(/\&\#39;/g, "'");
+  return newText.replace(/\&\# 39;/g, "'");
+};
+
+export const getTranslate = async ({ q, from, to }) => {
+  const newFrom = replaceLanguage(from);
+  const newTo = replaceLanguage(to);
+  const baseUrl = new URL("https://translate.googleapis.com/translate_a/t");
+  baseUrl.search = new URLSearchParams({
+    anno: 1,
+    client: "te",
+    v: "1.0",
+    format: "html",
+    sl: newFrom,
+    tl: newTo,
+    tk: GetHash(replaceSingle(q), BaseGTK),
+  }).toString();
+  const headers = {
+    "Content-Type": "application/x-www-form-urlencoded",
+  };
+  const body = { q };
+  const arrQ = q?.split("~");
+  try {
+    const result = await axios.post(baseUrl, body, {
+      headers: headers,
+      responseType: "json",
+    });
+
+    if (result.status === 200) {
+      const text = result?.data?.[0] ?? "";
+      const arrValue = text?.split("~");
+      console.log('text', text)
+      const objValue = arrQ?.reduce((total, current, index) => {
+        const currentValue = arrValue?.[index]
+        console.log(current)
+        return { ...total, [current]: "" };
+      }, {});
+      return objValue;
+    }
+    throw Error();
+  } catch (err) {
+    const obj = arrQ?.reduce((total, current) => {
+      return { ...total, [current]: "" };
+    }, {});
+    return obj;
+  }
+};
+
+// end call
 
 export const readFileToPath = (path, isJson = true) =>
   isJson ? JSON.parse(fs.readFileSync(path)) : fs.readFileSync(path);
