@@ -261,13 +261,17 @@ export const getTranslate = async ({ q, from, to }) => {
 
     if (result.status === 200) {
       const text = result?.data?.[0] ?? "";
-      const arrValue = text?.split("~");
-      const objValue = arrQ?.reduce((total, current, index) => {
-        const currentValue = replaceSingle(arrValue?.[index] ?? "")
-        appendFileConfig("log.txt", `${newTo} - ${current} - ${currentValue}\r\n`)
-        return { ...total, [current]: currentValue };
-      }, {});
-      return objValue;
+      const newText = text?.replace(/[～~]/gm, "||");
+      const arrValue = newText?.split("||");
+      writeFileConfig("log.json", { arrQ, arrValue });
+      console.log("arrValue", arrValue?.length);
+      console.log("arrQ", arrQ?.length);
+      // const objValue = arrQ?.reduce((total, current, index) => {
+      //   const currentValue = replaceSingle(arrValue?.[index] ?? "")
+      //   appendFileConfig("log.txt", `${newTo} - ${current} - ${currentValue}\r\n`)
+      //   return { ...total, [current]: currentValue };
+      // }, {});
+      // return objValue;
     }
     throw Error();
   } catch (err) {
@@ -277,6 +281,17 @@ export const getTranslate = async ({ q, from, to }) => {
     return obj;
   }
 };
+
+export function splitLargeArray(array) {
+  const chunkSize = 100;
+  const result = [];
+
+  for (let i = 0; i < array.length; i += chunkSize) {
+    result.push(array.slice(i, i + chunkSize));
+  }
+
+  return result;
+}
 
 // end call
 

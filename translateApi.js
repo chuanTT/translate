@@ -1,7 +1,11 @@
 import {
   awaitAll,
+  fetchTranstion,
+  getTranslate,
   readFileToPathConfig,
-  readFileToPathLanguage
+  readFileToPathLanguage,
+  writeFileLanguage,
+  writeFileUse,
 } from "./function.js";
 
 const ignoreLang = ["vi", "en"];
@@ -65,11 +69,61 @@ const listLang = lang?.split("\r\n");
 // });
 
 const dataVi = readFileToPathLanguage("vi.json");
+const dataNewVi = Object.keys(dataVi)?.reduce((total, current) => {
+  const currentVi = dataVi?.[current];
+  const newObj = Object.keys(currentVi)?.reduce((totalKey, currentChild) => {
+    const value = currentVi?.[currentChild];
+    return {
+      dataValue: [...(totalKey?.dataValue ?? []), value],
+      newObj: {
+        ...(totalKey?.newObj ?? {}),
+        [value]: currentChild,
+      },
+    };
+  }, {});
+
+  return {
+    ...total,
+    objKey: {
+      ...(total?.objKey ?? {}),
+      [current]: {},
+    },
+    [current]: {
+      ...newObj,
+    },
+  };
+}, {});
+writeFileUse("test.json", dataNewVi);
+
+const  callAPi = async (arr, to, from = "vi") => {
+  const newQ = arr?.join("~")
+  const data = await getTranslate({
+    q: newQ,
+    from,
+    to
+  })
+  return data
+}
+
+const convertFunCall = async (key, currentData, lang, objLang) => {
+  const arrData = currentData?.dataValue
+  if(arrData?.length > 100) {
+
+  } else {
+    const data = await callAPi(arrData, lang)
+  }
+};
+
 await awaitAll(listLang, async (lang) => {
   if (ignoreLang.includes(lang)) return;
 
-  console.log(dataVi)
-})
+  let objLang = dataNewVi?.["objKey"];
+  await awaitAll(Object.keys(dataNewVi), async (key) => {
+    if (key === "objKey") return;
+    const currentData = dataNewVi?.[key];
+    const obj = await convertFunCall(key, currentData, lang, objLang)
+  });
+});
 // await awaitAll(listLang, async (lang) => {
 //   if (ignoreLang.includes(lang)) return;
 //   const arrObj = Object.keys(dataVi);
