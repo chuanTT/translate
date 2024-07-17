@@ -262,11 +262,10 @@ export const getTranslate = async ({ q, from, to }) => {
     if (result.status === 200) {
       const text = result?.data?.[0] ?? "";
       const arrValue = text?.split("~");
-      console.log('text', text)
       const objValue = arrQ?.reduce((total, current, index) => {
-        const currentValue = arrValue?.[index]
-        console.log(current)
-        return { ...total, [current]: "" };
+        const currentValue = replaceSingle(arrValue?.[index] ?? "")
+        appendFileConfig("log.txt", `${newTo} - ${current} - ${currentValue}\r\n`)
+        return { ...total, [current]: currentValue };
       }, {});
       return objValue;
     }
