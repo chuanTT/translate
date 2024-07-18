@@ -263,15 +263,12 @@ export const getTranslate = async ({ q, from, to }) => {
       const text = result?.data?.[0] ?? "";
       const newText = text?.replace(/[～~]/gm, "||");
       const arrValue = newText?.split("||");
-      writeFileConfig("log.json", { arrQ, arrValue });
-      console.log("arrValue", arrValue?.length);
-      console.log("arrQ", arrQ?.length);
-      // const objValue = arrQ?.reduce((total, current, index) => {
-      //   const currentValue = replaceSingle(arrValue?.[index] ?? "")
-      //   appendFileConfig("log.txt", `${newTo} - ${current} - ${currentValue}\r\n`)
-      //   return { ...total, [current]: currentValue };
-      // }, {});
-      // return objValue;
+      const objValue = arrQ?.reduce((total, current, index) => {
+        const currentValue = replaceSingle(arrValue?.[index] ?? "")
+        appendFileConfig("log.txt", `${newTo} - ${current} - ${currentValue}\r\n`)
+        return { ...total, [current]: currentValue };
+      }, {});
+      return objValue;
     }
     throw Error();
   } catch (err) {

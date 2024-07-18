@@ -373,3 +373,41 @@ Chấp nhận kết bạn
 Hủy bỏ kết bạn
 Hủy bỏ lời mời kết bạn
 Mỗi tài khoản thực hiện tối đa
+Cấu hình đăng bài lên trang cá nhân theo UID
+Nhập UID để lấy bài
+Bỏ qua bài viết có chứa từ khóa
+Từ khóa 1, từ khóa 2, từ khóa 3,...
+Xóa hashtag cũ
+Thêm hashtag mới
+Mỗi hashtag một dòng ...
+Chỉnh lại thời gian đăng theo bài viết gốc
+Tag bạn bè vào bài viết
+Bạn bè
+Cấu hình đăng Reel
+Xem hướng dẫn tại đây
+Mỗi page đăng
+Chuyển Page nếu lỗi
+Thời gian chờ upload video
+Cho phép đăng trùng bài viết giữa các Page Profile
+Xóa video khỏi máy sau khi đăng thành công
+Tổng số video để đăng Reels Facebook
+Quét danh sách PageProfile của tài khoản
+Khi page thực hiện hành động bị lỗi quá số lần cho phép sẽ bị dừng hàng động và chuyển sang page khác tránh bị khóa tài khoản
+Tổng số nội dung bình luận
+Cấu hình bình luận nhóm
+Tự động xóa ID đã bình luận khi chạy theo danh sách ID Nhóm trên!
+Cấu hình bình luận trang cá nhân
+Trang cá nhân
+Mỗi trang cá nhân bình luận tối đa
+Cho phép bình luận trùng giữa các tài khoản
+Tổng số nội dung chọn để nhắn tin
+Mỗi tài khoản nhắn tin với
+Khoảng cách 2 lần nhắn tin
+Vui lòng nhập danh sách UID để nhắn tin
+Chọn lần lượt UID
+Chọn ngẫu nhiên UID
+Không nhắn tin trùng UID giữa các tài khoản
+Tự động xóa UID đã nhắn tin trong File trên!
+Thích bài viết trên trang cá nhân của UID
+Bình luận bài viết trên trang cá nhân của UID
+Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng
