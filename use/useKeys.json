@@ -6,22 +6,40 @@
     "useJSX": "{t('general_management.settings')}"
   },
   {
-    "key": "general_management.user_guide",
+    "key": "general_management.user_instructions",
     "value": "Hướng dẫn sử dụng",
-    "useT": "t('general_management.user_guide')",
-    "useJSX": "{t('general_management.user_guide')}"
+    "useT": "t('general_management.user_instructions')",
+    "useJSX": "{t('general_management.user_instructions')}"
   },
   {
-    "key": "general_management.notice",
+    "key": "general_management.notifications",
     "value": "Thông báo",
-    "useT": "t('general_management.notice')",
-    "useJSX": "{t('general_management.notice')}"
+    "useT": "t('general_management.notifications')",
+    "useJSX": "{t('general_management.notifications')}"
   },
   {
     "key": "general_management.terms",
     "value": "Điều khoản",
     "useT": "t('general_management.terms')",
     "useJSX": "{t('general_management.terms')}"
+  },
+  {
+    "key": "general_management.terms_of_use",
+    "value": "Điều khoản sử dụng",
+    "useT": "t('general_management.terms_of_use')",
+    "useJSX": "{t('general_management.terms_of_use')}"
+  },
+  {
+    "key": "general_management.agree_to_the_terms_of_use_and_no_further_displays",
+    "value": "Đồng ý điều khoản sử dụng và không hiển thị thêm nữa",
+    "useT": "t('general_management.agree_to_the_terms_of_use_and_no_further_displays')",
+    "useJSX": "{t('general_management.agree_to_the_terms_of_use_and_no_further_displays')}"
+  },
+  {
+    "key": "general_management.agree",
+    "value": "Đồng ý",
+    "useT": "t('general_management.agree')",
+    "useJSX": "{t('general_management.agree')}"
   },
   {
     "key": "toast.login_successful",
@@ -36,70 +54,40 @@
     "useJSX": "{t('toast.login_failed')}"
   },
   {
-    "key": "auth.login",
-    "value": "Đăng nhập",
-    "useT": "t('auth.login')",
-    "useJSX": "{t('auth.login')}"
+    "key": "context_menu.uncheck",
+    "value": "Bỏ chọn",
+    "useT": "t('context_menu.uncheck')",
+    "useJSX": "{t('context_menu.uncheck')}"
   },
   {
-    "key": "auth.logout",
-    "value": "Đăng xuất",
-    "useT": "t('auth.logout')",
-    "useJSX": "{t('auth.logout')}"
+    "key": "context_menu.log_in_to_facebook",
+    "value": "Đăng nhập Facebook",
+    "useT": "t('context_menu.log_in_to_facebook')",
+    "useJSX": "{t('context_menu.log_in_to_facebook')}"
   },
   {
-    "key": "auth.forgot_password",
-    "value": "Quên mật khẩu",
-    "useT": "t('auth.forgot_password')",
-    "useJSX": "{t('auth.forgot_password')}"
+    "key": "context_menu.sign_in_to_hotmail",
+    "value": "Đăng nhập Hotmail",
+    "useT": "t('context_menu.sign_in_to_hotmail')",
+    "useJSX": "{t('context_menu.sign_in_to_hotmail')}"
   },
   {
-    "key": "auth.you_don't_have_an_account?",
-    "value": "Bạn chưa có tài khoản?",
-    "useT": "t('auth.you_don't_have_an_account?')",
-    "useJSX": "{t('auth.you_don't_have_an_account?')}"
+    "key": "context_menu.create_chorme_profile",
+    "value": "Tạo Chorme Profile",
+    "useT": "t('context_menu.create_chorme_profile')",
+    "useJSX": "{t('context_menu.create_chorme_profile')}"
   },
   {
-    "key": "auth.create_new_account",
-    "value": "Tạo tài khoản mới",
-    "useT": "t('auth.create_new_account')",
-    "useJSX": "{t('auth.create_new_account')}"
+    "key": "context_menu.check_account",
+    "value": "Kiểm tra tài khoản",
+    "useT": "t('context_menu.check_account')",
+    "useJSX": "{t('context_menu.check_account')}"
   },
   {
-    "key": "auth.enter",
-    "value": "Nhập",
-    "useT": "t('auth.enter')",
-    "useJSX": "{t('auth.enter')}"
-  },
-  {
-    "key": "auth.password",
-    "value": "Mật khẩu",
-    "useT": "t('auth.password')",
-    "useJSX": "{t('auth.password')}"
-  },
-  {
-    "key": "auth.please_enter_email",
-    "value": "Vui lòng nhập email",
-    "useT": "t('auth.please_enter_email')",
-    "useJSX": "{t('auth.please_enter_email')}"
-  },
-  {
-    "key": "auth.email_is_not_in_the_correct_format",
-    "value": "Email không đúng định dạng",
-    "useT": "t('auth.email_is_not_in_the_correct_format')",
-    "useJSX": "{t('auth.email_is_not_in_the_correct_format')}"
-  },
-  {
-    "key": "auth.please_enter_password",
-    "value": "Vui lòng nhập mật khẩu",
-    "useT": "t('auth.please_enter_password')",
-    "useJSX": "{t('auth.please_enter_password')}"
-  },
-  {
-    "key": "auth.minimum_password_is_4_characters_on_one's_own",
-    "value": "Mật khẩu tối thiểu 4 kí tự",
-    "useT": "t('auth.minimum_password_is_4_characters_on_one's_own')",
-    "useJSX": "{t('auth.minimum_password_is_4_characters_on_one's_own')}"
+    "key": "context_menu.check_year_of_account_creation",
+    "value": "Kiểm tra năm tạo tài khoản",
+    "useT": "t('context_menu.check_year_of_account_creation')",
+    "useJSX": "{t('context_menu.check_year_of_account_creation')}"
   },
   {
     "key": "pages.account_management",
@@ -288,6 +276,258 @@
     "useJSX": "{t('pages.interactive_run_configuration')}"
   },
   {
+    "key": "auth.login",
+    "value": "Đăng nhập",
+    "useT": "t('auth.login')",
+    "useJSX": "{t('auth.login')}"
+  },
+  {
+    "key": "auth.logout",
+    "value": "Đăng xuất",
+    "useT": "t('auth.logout')",
+    "useJSX": "{t('auth.logout')}"
+  },
+  {
+    "key": "auth.forgot_password",
+    "value": "Quên mật khẩu",
+    "useT": "t('auth.forgot_password')",
+    "useJSX": "{t('auth.forgot_password')}"
+  },
+  {
+    "key": "auth.you_don't_have_an_account?",
+    "value": "Bạn chưa có tài khoản?",
+    "useT": "t('auth.you_don't_have_an_account?')",
+    "useJSX": "{t('auth.you_don't_have_an_account?')}"
+  },
+  {
+    "key": "auth.create_new_account",
+    "value": "Tạo tài khoản mới",
+    "useT": "t('auth.create_new_account')",
+    "useJSX": "{t('auth.create_new_account')}"
+  },
+  {
+    "key": "auth.enter",
+    "value": "Nhập",
+    "useT": "t('auth.enter')",
+    "useJSX": "{t('auth.enter')}"
+  },
+  {
+    "key": "auth.password",
+    "value": "Mật khẩu",
+    "useT": "t('auth.password')",
+    "useJSX": "{t('auth.password')}"
+  },
+  {
+    "key": "auth.please_enter_email",
+    "value": "Vui lòng nhập email",
+    "useT": "t('auth.please_enter_email')",
+    "useJSX": "{t('auth.please_enter_email')}"
+  },
+  {
+    "key": "auth.email_is_not_in_the_correct_format",
+    "value": "Email không đúng định dạng",
+    "useT": "t('auth.email_is_not_in_the_correct_format')",
+    "useJSX": "{t('auth.email_is_not_in_the_correct_format')}"
+  },
+  {
+    "key": "auth.please_enter_password",
+    "value": "Vui lòng nhập mật khẩu",
+    "useT": "t('auth.please_enter_password')",
+    "useJSX": "{t('auth.please_enter_password')}"
+  },
+  {
+    "key": "auth.minimum_password_is_4_characters_on_one's_own",
+    "value": "Mật khẩu tối thiểu 4 kí tự",
+    "useT": "t('auth.minimum_password_is_4_characters_on_one's_own')",
+    "useJSX": "{t('auth.minimum_password_is_4_characters_on_one's_own')}"
+  },
+  {
+    "key": "table.email_password",
+    "value": "Mail khẩu email",
+    "useT": "t('table.email_password')",
+    "useJSX": "{t('table.email_password')}"
+  },
+  {
+    "key": "table.recovery_email",
+    "value": "Mail khôi phục",
+    "useT": "t('table.recovery_email')",
+    "useJSX": "{t('table.recovery_email')}"
+  },
+  {
+    "key": "table.status",
+    "value": "Trạng thái",
+    "useT": "t('table.status')",
+    "useJSX": "{t('table.status')}"
+  },
+  {
+    "key": "table.category",
+    "value": "Danh mục",
+    "useT": "t('table.category')",
+    "useJSX": "{t('table.category')}"
+  },
+  {
+    "key": "table.date_of_birth",
+    "value": "Ngày sinh",
+    "useT": "t('table.date_of_birth')",
+    "useJSX": "{t('table.date_of_birth')}"
+  },
+  {
+    "key": "table.year_of_account_creation",
+    "value": "Năm tạo tài khoản",
+    "useT": "t('table.year_of_account_creation')",
+    "useJSX": "{t('table.year_of_account_creation')}"
+  },
+  {
+    "key": "table.gender",
+    "value": "Giới tính",
+    "useT": "t('table.gender')",
+    "useJSX": "{t('table.gender')}"
+  },
+  {
+    "key": "table.last_action",
+    "value": "Hành động cuối",
+    "useT": "t('table.last_action')",
+    "useJSX": "{t('table.last_action')}"
+  },
+  {
+    "key": "table.last_interaction",
+    "value": "Lần tương tác cuối",
+    "useT": "t('table.last_interaction')",
+    "useJSX": "{t('table.last_interaction')}"
+  },
+  {
+    "key": "table.notes",
+    "value": "Ghi chú",
+    "useT": "t('table.notes')",
+    "useJSX": "{t('table.notes')}"
+  },
+  {
+    "key": "table.open_chrome",
+    "value": "Mở Chrome",
+    "useT": "t('table.open_chrome')",
+    "useJSX": "{t('table.open_chrome')}"
+  },
+  {
+    "key": "table.running_action_information",
+    "value": "Thông tin hành động đang chạy",
+    "useT": "t('table.running_action_information')",
+    "useJSX": "{t('table.running_action_information')}"
+  },
+  {
+    "key": "table.tien_tinh_has_run",
+    "value": "Tiến Tình đã chạy",
+    "useT": "t('table.tien_tinh_has_run')",
+    "useJSX": "{t('table.tien_tinh_has_run')}"
+  },
+  {
+    "key": "table.title",
+    "value": "Tiêu đề",
+    "useT": "t('table.title')",
+    "useJSX": "{t('table.title')}"
+  },
+  {
+    "key": "table.attach_photo",
+    "value": "Kèm ảnh",
+    "useT": "t('table.attach_photo')",
+    "useJSX": "{t('table.attach_photo')}"
+  },
+  {
+    "key": "table.number_of_attached_photos",
+    "value": "Số ảnh kèm",
+    "useT": "t('table.number_of_attached_photos')",
+    "useJSX": "{t('table.number_of_attached_photos')}"
+  },
+  {
+    "key": "table.post_type",
+    "value": "Kiểu bài",
+    "useT": "t('table.post_type')",
+    "useJSX": "{t('table.post_type')}"
+  },
+  {
+    "key": "table.time",
+    "value": "Thời gian",
+    "useT": "t('table.time')",
+    "useJSX": "{t('table.time')}"
+  },
+  {
+    "key": "table.success",
+    "value": "Thành công",
+    "useT": "t('table.success')",
+    "useJSX": "{t('table.success')}"
+  },
+  {
+    "key": "table.process",
+    "value": "Quá trình",
+    "useT": "t('table.process')",
+    "useJSX": "{t('table.process')}"
+  },
+  {
+    "key": "table.posting_date",
+    "value": "Ngày đăng",
+    "useT": "t('table.posting_date')",
+    "useJSX": "{t('table.posting_date')}"
+  },
+  {
+    "key": "table.uid_to_get_post",
+    "value": "UID lấy bài",
+    "useT": "t('table.uid_to_get_post')",
+    "useJSX": "{t('table.uid_to_get_post')}"
+  },
+  {
+    "key": "table.full_name",
+    "value": "Họ tên",
+    "useT": "t('table.full_name')",
+    "useJSX": "{t('table.full_name')}"
+  },
+  {
+    "key": "table.group_id_to_get_post",
+    "value": "ID Group lấy bài",
+    "useT": "t('table.group_id_to_get_post')",
+    "useJSX": "{t('table.group_id_to_get_post')}"
+  },
+  {
+    "key": "table.page_name",
+    "value": "Tên page",
+    "useT": "t('table.page_name')",
+    "useJSX": "{t('table.page_name')}"
+  },
+  {
+    "key": "table.video_number",
+    "value": "Số video",
+    "useT": "t('table.video_number')",
+    "useJSX": "{t('table.video_number')}"
+  },
+  {
+    "key": "table.article_link",
+    "value": "Link bài viết",
+    "useT": "t('table.article_link')",
+    "useJSX": "{t('table.article_link')}"
+  },
+  {
+    "key": "table.number_photo",
+    "value": "Số ảnh",
+    "useT": "t('table.number_photo')",
+    "useJSX": "{t('table.number_photo')}"
+  },
+  {
+    "key": "table.mail_password",
+    "value": "Mật khẩu mail",
+    "useT": "t('table.mail_password')",
+    "useJSX": "{t('table.mail_password')}"
+  },
+  {
+    "key": "table.recovery_mail",
+    "value": "Mail Khôi phục",
+    "useT": "t('table.recovery_mail')",
+    "useJSX": "{t('table.recovery_mail')}"
+  },
+  {
+    "key": "table.name",
+    "value": "Tên",
+    "useT": "t('table.name')",
+    "useJSX": "{t('table.name')}"
+  },
+  {
     "key": "partial.create_account",
     "value": "Tạo tài khoản",
     "useT": "t('partial.create_account')",
@@ -462,10 +702,10 @@
     "useJSX": "{t('partial.switch_account_if_posting_error')}"
   },
   {
-    "key": "partial.when_the_account_performs_an_error_action_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked",
+    "key": "partial.when_the_account_performs_an_error_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked",
     "value": "Khi tài khoản thực hiện hành động bị lỗi vượt quá số lần cho phép sẽ bị dừng và chuyển sang tài khoản khác để tránh bị khóa tài khoản",
-    "useT": "t('partial.when_the_account_performs_an_error_action_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked')",
-    "useJSX": "{t('partial.when_the_account_performs_an_error_action_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked')}"
+    "useT": "t('partial.when_the_account_performs_an_error_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked')",
+    "useJSX": "{t('partial.when_the_account_performs_an_error_exceeding_the_allowed_number_of_times,_it_will_be_stopped_and_transferred_to_another_account_to_avoid_account_being_locked')}"
   },
   {
     "key": "partial.switch_account_after_posting",
@@ -588,10 +828,10 @@
     "useJSX": "{t('partial.comment_according_to_uid_list')}"
   },
   {
-    "key": "partial.choose_randomly",
+    "key": "partial.randomly_selected",
     "value": "Chọn ngẫu nhiên",
-    "useT": "t('partial.choose_randomly')",
-    "useJSX": "{t('partial.choose_randomly')}"
+    "useT": "t('partial.randomly_selected')",
+    "useJSX": "{t('partial.randomly_selected')}"
   },
   {
     "key": "partial.in_order",
@@ -894,10 +1134,10 @@
     "useJSX": "{t('partial.resistant_to_spam')}"
   },
   {
-    "key": "partial.spam_messages",
+    "key": "partial.spam_news",
     "value": "Tin spam",
-    "useT": "t('partial.spam_messages')",
-    "useJSX": "{t('partial.spam_messages')}"
+    "useT": "t('partial.spam_news')",
+    "useJSX": "{t('partial.spam_news')}"
   },
   {
     "key": "partial.change_account_language",
@@ -918,10 +1158,10 @@
     "useJSX": "{t('partial.sign_out_of_all_devices_after_interacting_')}"
   },
   {
-    "key": "partial.enter_comment_content_here._each_content_is_1_line",
-    "value": "Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng",
-    "useT": "t('partial.enter_comment_content_here._each_content_is_1_line')",
-    "useJSX": "{t('partial.enter_comment_content_here._each_content_is_1_line')}"
+    "key": "partial.enter_comment_content_here._one_line_per_content",
+    "value": "Nhập nội dung bình luận vào đây. Mỗi nội dung một dòng",
+    "useT": "t('partial.enter_comment_content_here._one_line_per_content')",
+    "useJSX": "{t('partial.enter_comment_content_here._one_line_per_content')}"
   },
   {
     "key": "partial.configure_profile_comments_by_keywords",
@@ -1260,10 +1500,10 @@
     "useJSX": "{t('partial.configure_article_scanning')}"
   },
   {
-    "key": "partial.enter_uid_to_retrieve_articles._each_uid_is_separated_by_a_','",
+    "key": "partial.enter_uid_to_retrieve_posts._each_uid_is_separated_by_a_','",
     "value": "Nhập UID lấy bài. Mỗi UID cách nhau dấu ','",
-    "useT": "t('partial.enter_uid_to_retrieve_articles._each_uid_is_separated_by_a_','')",
-    "useJSX": "{t('partial.enter_uid_to_retrieve_articles._each_uid_is_separated_by_a_','')}"
+    "useT": "t('partial.enter_uid_to_retrieve_posts._each_uid_is_separated_by_a_','')",
+    "useJSX": "{t('partial.enter_uid_to_retrieve_posts._each_uid_is_separated_by_a_','')}"
   },
   {
     "key": "partial.enter_the_post_group_id",
@@ -1338,10 +1578,10 @@
     "useJSX": "{t('partial.join_by_group_id')}"
   },
   {
-    "key": "partial.please_enter_group_group_id_list_here!",
+    "key": "partial.please_enter_a_name_group_id_list_here!",
     "value": "Vui lòng nhập danh sách ID nhóm tại đây!",
-    "useT": "t('partial.please_enter_group_group_id_list_here!')",
-    "useJSX": "{t('partial.please_enter_group_group_id_list_here!')}"
+    "useT": "t('partial.please_enter_a_name_group_id_list_here!')",
+    "useJSX": "{t('partial.please_enter_a_name_group_id_list_here!')}"
   },
   {
     "key": "partial.join_by_keyword",
@@ -1518,12 +1758,6 @@
     "useJSX": "{t('partial.comment_on_video_reels_posted_successfully')}"
   },
   {
-    "key": "partial.enter_comment_content_here._one_line_per_content",
-    "value": "Nhập nội dung bình luận vào đây. Mỗi nội dung một dòng",
-    "useT": "t('partial.enter_comment_content_here._one_line_per_content')",
-    "useJSX": "{t('partial.enter_comment_content_here._one_line_per_content')}"
-  },
-  {
     "key": "partial.configuring_video_posting_page_profile",
     "value": "Cấu hình đăng video page profile",
     "useT": "t('partial.configuring_video_posting_page_profile')",
@@ -1656,10 +1890,10 @@
     "useJSX": "{t('partial.configuration_article_interaction_image_by_id')}"
   },
   {
-    "key": "partial.share_on_story_page_profile",
+    "key": "partial.share_about_story_page_profile",
     "value": "Chia sẻ về Story Page Profile",
-    "useT": "t('partial.share_on_story_page_profile')",
-    "useJSX": "{t('partial.share_on_story_page_profile')}"
+    "useT": "t('partial.share_about_story_page_profile')",
+    "useJSX": "{t('partial.share_about_story_page_profile')}"
   },
   {
     "key": "partial.please_enter_the_article_sharing_content_here._one_line_per_content!",
@@ -1944,10 +2178,10 @@
     "useJSX": "{t('partial.list_of_posts_')}"
   },
   {
-    "key": "partial.automatically_get_the_account's_current_friend_list",
+    "key": "partial.automatically_get_the_account's_current_friends_list",
     "value": "Tự động lấy danh sách bạn bè hiện tại của tài khoản",
-    "useT": "t('partial.automatically_get_the_account's_current_friend_list')",
-    "useJSX": "{t('partial.automatically_get_the_account's_current_friend_list')}"
+    "useT": "t('partial.automatically_get_the_account's_current_friends_list')",
+    "useJSX": "{t('partial.automatically_get_the_account's_current_friends_list')}"
   },
   {
     "key": "partial.automatically_get_the_account's_current_group_list",
@@ -1956,10 +2190,10 @@
     "useJSX": "{t('partial.automatically_get_the_account's_current_group_list')}"
   },
   {
-    "key": "partial.restart_from_the_beginning",
+    "key": "partial.rerun_from_start",
     "value": "Chạy lại từ đầu",
-    "useT": "t('partial.restart_from_the_beginning')",
-    "useJSX": "{t('partial.restart_from_the_beginning')}"
+    "useT": "t('partial.rerun_from_start')",
+    "useJSX": "{t('partial.rerun_from_start')}"
   },
   {
     "key": "partial.every_stop",
@@ -2416,5 +2650,713 @@
     "value": "Bình luận bài viết trên trang cá nhân của UID",
     "useT": "t('partial.comment_on_the_article_on_uid's_personal_page')",
     "useJSX": "{t('partial.comment_on_the_article_on_uid's_personal_page')}"
+  },
+  {
+    "key": "partial.configuration_to_change_basic_information",
+    "value": "Cấu hình thay đổi thông tin cơ bản",
+    "useT": "t('partial.configuration_to_change_basic_information')",
+    "useJSX": "{t('partial.configuration_to_change_basic_information')}"
+  },
+  {
+    "key": "partial.change_avatar",
+    "value": "Đổi Avatar",
+    "useT": "t('partial.change_avatar')",
+    "useJSX": "{t('partial.change_avatar')}"
+  },
+  {
+    "key": "partial.folder_containing_avatar",
+    "value": "Thư mục chứa Avatar",
+    "useT": "t('partial.folder_containing_avatar')",
+    "useJSX": "{t('partial.folder_containing_avatar')}"
+  },
+  {
+    "key": "partial.change_cover",
+    "value": "Đổi Cover",
+    "useT": "t('partial.change_cover')",
+    "useJSX": "{t('partial.change_cover')}"
+  },
+  {
+    "key": "partial.folder_containing_cover",
+    "value": "Thư mục chứa Cover",
+    "useT": "t('partial.folder_containing_cover')",
+    "useJSX": "{t('partial.folder_containing_cover')}"
+  },
+  {
+    "key": "partial.change_gender",
+    "value": "Thay đổi giới tính",
+    "useT": "t('partial.change_gender')",
+    "useJSX": "{t('partial.change_gender')}"
+  },
+  {
+    "key": "partial.male",
+    "value": "Nam",
+    "useT": "t('partial.male')",
+    "useJSX": "{t('partial.male')}"
+  },
+  {
+    "key": "partial.female",
+    "value": "Nữ",
+    "useT": "t('partial.female')",
+    "useJSX": "{t('partial.female')}"
+  },
+  {
+    "key": "partial.change_date_of_birth",
+    "value": "Đổi ngày sinh",
+    "useT": "t('partial.change_date_of_birth')",
+    "useJSX": "{t('partial.change_date_of_birth')}"
+  },
+  {
+    "key": "partial.randomly_change_birthday",
+    "value": "Đổi ngẫu nhiên ngày sinh",
+    "useT": "t('partial.randomly_change_birthday')",
+    "useJSX": "{t('partial.randomly_change_birthday')}"
+  },
+  {
+    "key": "partial.day",
+    "value": "Ngày",
+    "useT": "t('partial.day')",
+    "useJSX": "{t('partial.day')}"
+  },
+  {
+    "key": "partial.month",
+    "value": "Tháng",
+    "useT": "t('partial.month')",
+    "useJSX": "{t('partial.month')}"
+  },
+  {
+    "key": "partial.year",
+    "value": "Năm",
+    "useT": "t('partial.year')",
+    "useJSX": "{t('partial.year')}"
+  },
+  {
+    "key": "partial.change_account_full_name",
+    "value": "Thay đổi họ tên tài khoản",
+    "useT": "t('partial.change_account_full_name')",
+    "useJSX": "{t('partial.change_account_full_name')}"
+  },
+  {
+    "key": "partial.enter_last_name_here",
+    "value": "Nhập họ vào đây",
+    "useT": "t('partial.enter_last_name_here')",
+    "useJSX": "{t('partial.enter_last_name_here')}"
+  },
+  {
+    "key": "partial.enter_middle_name_here",
+    "value": "Nhập tên đệm vào đây",
+    "useT": "t('partial.enter_middle_name_here')",
+    "useJSX": "{t('partial.enter_middle_name_here')}"
+  },
+  {
+    "key": "partial.enter_first_name_here",
+    "value": "Nhập tên vào đây",
+    "useT": "t('partial.enter_first_name_here')",
+    "useJSX": "{t('partial.enter_first_name_here')}"
+  },
+  {
+    "key": "partial.randomly_change_full_name_from_the_system",
+    "value": "Đổi ngẫu nhiên họ tên từ hệ thống",
+    "useT": "t('partial.randomly_change_full_name_from_the_system')",
+    "useJSX": "{t('partial.randomly_change_full_name_from_the_system')}"
+  },
+  {
+    "key": "partial.change_model_describe_yourself",
+    "value": "Thay đổi mô tả bản thân",
+    "useT": "t('partial.change_model_describe_yourself')",
+    "useJSX": "{t('partial.change_model_describe_yourself')}"
+  },
+  {
+    "key": "partial.enter_description_here._maximum_each_content_is_200_characters",
+    "value": "Nhập mô tả vào đây. Tối đa mỗi nội dung 200 kí tự",
+    "useT": "t('partial.enter_description_here._maximum_each_content_is_200_characters')",
+    "useJSX": "{t('partial.enter_description_here._maximum_each_content_is_200_characters')}"
+  },
+  {
+    "key": "partial.update_hometown,_city",
+    "value": "Cập nhật Quê quán, Thành phố",
+    "useT": "t('partial.update_hometown,_city')",
+    "useJSX": "{t('partial.update_hometown,_city')}"
+  },
+  {
+    "key": "partial.enter_hometown._city_here",
+    "value": "Nhập quê quán. Thành phố vào đây",
+    "useT": "t('partial.enter_hometown._city_here')",
+    "useJSX": "{t('partial.enter_hometown._city_here')}"
+  },
+  {
+    "key": "partial.update_university,_high_school",
+    "value": "Cập nhật Trường Đại học, Trung học",
+    "useT": "t('partial.update_university,_high_school')",
+    "useJSX": "{t('partial.update_university,_high_school')}"
+  },
+  {
+    "key": "partial.enter_school",
+    "value": "Nhập trường",
+    "useT": "t('partial.enter_school')",
+    "useJSX": "{t('partial.enter_school')}"
+  },
+  {
+    "key": "partial.update_workplace",
+    "value": "Cập nhật Nơi làm việc",
+    "useT": "t('partial.update_workplace')",
+    "useJSX": "{t('partial.update_workplace')}"
+  },
+  {
+    "key": "partial.enter_workplace_here",
+    "value": "Nhập nơi làm việc vào đây",
+    "useT": "t('partial.enter_workplace_here')",
+    "useJSX": "{t('partial.enter_workplace_here')}"
+  },
+  {
+    "key": "partial.change_privacy",
+    "value": "Thay đổi quyền riêng tư",
+    "useT": "t('partial.change_privacy')",
+    "useJSX": "{t('partial.change_privacy')}"
+  },
+  {
+    "key": "partial.who_can_see_your_posts",
+    "value": "Ai có thể xem bài viết của bạn",
+    "useT": "t('partial.who_can_see_your_posts')",
+    "useJSX": "{t('partial.who_can_see_your_posts')}"
+  },
+  {
+    "key": "partial.who_can_see_your_list_friend_book",
+    "value": "Ai có thể xem danh sách bạn bè",
+    "useT": "t('partial.who_can_see_your_list_friend_book')",
+    "useJSX": "{t('partial.who_can_see_your_list_friend_book')}"
+  },
+  {
+    "key": "partial.advanced_information_change_configuration",
+    "value": "Cấu hình thay đổi thông tin nâng cao",
+    "useT": "t('partial.advanced_information_change_configuration')",
+    "useJSX": "{t('partial.advanced_information_change_configuration')}"
+  },
+  {
+    "key": "partial.change_information_with_hacker_link",
+    "value": "Đổi thông tin bằng link Hacker",
+    "useT": "t('partial.change_information_with_hacker_link')",
+    "useJSX": "{t('partial.change_information_with_hacker_link')}"
+  },
+  {
+    "key": "partial.add_mail",
+    "value": "Thêm mail",
+    "useT": "t('partial.add_mail')",
+    "useJSX": "{t('partial.add_mail')}"
+  },
+  {
+    "key": "partial.import_mail",
+    "value": "Nhập Mail",
+    "useT": "t('partial.import_mail')",
+    "useJSX": "{t('partial.import_mail')}"
+  },
+  {
+    "key": "partial.delete_all_old_mail",
+    "value": "Xóa tất cả Mail cũ",
+    "useT": "t('partial.delete_all_old_mail')",
+    "useJSX": "{t('partial.delete_all_old_mail')}"
+  },
+  {
+    "key": "partial.delete_phone_number",
+    "value": "Xóa số điện thoại",
+    "useT": "t('partial.delete_phone_number')",
+    "useJSX": "{t('partial.delete_phone_number')}"
+  },
+  {
+    "key": "partial.change_password",
+    "value": "Thay đổi mật khẩu",
+    "useT": "t('partial.change_password')",
+    "useJSX": "{t('partial.change_password')}"
+  },
+  {
+    "key": "partial.enter_password_here",
+    "value": "Nhập mật khẩu vào đây",
+    "useT": "t('partial.enter_password_here')",
+    "useJSX": "{t('partial.enter_password_here')}"
+  },
+  {
+    "key": "partial.password_default",
+    "value": "Mật khẩu mặc định",
+    "useT": "t('partial.password_default')",
+    "useJSX": "{t('partial.password_default')}"
+  },
+  {
+    "key": "partial.random_password_plus_numbers",
+    "value": "Mật khẩu ngẫu nhiên cộng số",
+    "useT": "t('partial.random_password_plus_numbers')",
+    "useJSX": "{t('partial.random_password_plus_numbers')}"
+  },
+  {
+    "key": "partial.email_password_change_history_is_saved_here",
+    "value": "Lịch sử thay đổi mật khẩu mail được lưu ở đây",
+    "useT": "t('partial.email_password_change_history_is_saved_here')",
+    "useJSX": "{t('partial.email_password_change_history_is_saved_here')}"
+  },
+  {
+    "key": "partial.configure_deletion_of_account_information",
+    "value": "Cấu hình xóa thông tin tài khoản",
+    "useT": "t('partial.configure_deletion_of_account_information')",
+    "useJSX": "{t('partial.configure_deletion_of_account_information')}"
+  },
+  {
+    "key": "partial.delete_secondary_name",
+    "value": "Xóa tên phụ",
+    "useT": "t('partial.delete_secondary_name')",
+    "useJSX": "{t('partial.delete_secondary_name')}"
+  },
+  {
+    "key": "partial.hide_account_email",
+    "value": "Ẩn mail của tài khoản",
+    "useT": "t('partial.hide_account_email')",
+    "useJSX": "{t('partial.hide_account_email')}"
+  },
+  {
+    "key": "partial.delete_login_log",
+    "value": "Xóa bỏ nhật ký đăng nhập",
+    "useT": "t('partial.delete_login_log')",
+    "useJSX": "{t('partial.delete_login_log')}"
+  },
+  {
+    "key": "partial.hide_date_year_of_birth",
+    "value": "Ẩn ngày tháng năm sinh",
+    "useT": "t('partial.hide_date_year_of_birth')",
+    "useJSX": "{t('partial.hide_date_year_of_birth')}"
+  },
+  {
+    "key": "partial.sign_out_all_devices",
+    "value": "Đăng xuất khỏi tất cả các thiết bị",
+    "useT": "t('partial.sign_out_all_devices')",
+    "useJSX": "{t('partial.sign_out_all_devices')}"
+  },
+  {
+    "key": "partial.remove_trusted_devices",
+    "value": "Xóa thiết bị tin cậy",
+    "useT": "t('partial.remove_trusted_devices')",
+    "useJSX": "{t('partial.remove_trusted_devices')}"
+  },
+  {
+    "key": "partial.configure_2fa_toggle",
+    "value": "Cấu hình bật tắt 2FA",
+    "useT": "t('partial.configure_2fa_toggle')",
+    "useJSX": "{t('partial.configure_2fa_toggle')}"
+  },
+  {
+    "key": "partial.stop_after_toggling_2fa",
+    "value": "Dừng sau khi bật tắt 2FA",
+    "useT": "t('partial.stop_after_toggling_2fa')",
+    "useJSX": "{t('partial.stop_after_toggling_2fa')}"
+  },
+  {
+    "key": "partial.disable_2fa",
+    "value": "Tắt 2FA",
+    "useT": "t('partial.disable_2fa')",
+    "useJSX": "{t('partial.disable_2fa')}"
+  },
+  {
+    "key": "partial.enable_2fa",
+    "value": "Bật 2FA",
+    "useT": "t('partial.enable_2fa')",
+    "useJSX": "{t('partial.enable_2fa')}"
+  },
+  {
+    "key": "partial.if_account_already_has_2fa",
+    "value": "Nếu tài khoản đã có 2FA",
+    "useT": "t('partial.if_account_already_has_2fa')",
+    "useJSX": "{t('partial.if_account_already_has_2fa')}"
+  },
+  {
+    "key": "partial.do_not_enable_2fa",
+    "value": "Không bật 2FA",
+    "useT": "t('partial.do_not_enable_2fa')",
+    "useJSX": "{t('partial.do_not_enable_2fa')}"
+  },
+  {
+    "key": "partial.keep_2fa_old_and_add_new_2fa",
+    "value": "Giữ 2FA cũ và thêm 2FA mới",
+    "useT": "t('partial.keep_2fa_old_and_add_new_2fa')",
+    "useJSX": "{t('partial.keep_2fa_old_and_add_new_2fa')}"
+  },
+  {
+    "key": "partial.delete_old_2fa_and_add_new_2fa",
+    "value": "Xóa 2FA cũ và thêm 2FA mới",
+    "useT": "t('partial.delete_old_2fa_and_add_new_2fa')",
+    "useJSX": "{t('partial.delete_old_2fa_and_add_new_2fa')}"
+  },
+  {
+    "key": "partial.account_unlock_configuration",
+    "value": "Cấu hình mở khóa tài khoản",
+    "useT": "t('partial.account_unlock_configuration')",
+    "useJSX": "{t('partial.account_unlock_configuration')}"
+  },
+  {
+    "key": "partial.captcha_api",
+    "value": "Api captcha",
+    "useT": "t('partial.captcha_api')",
+    "useJSX": "{t('partial.captcha_api')}"
+  },
+  {
+    "key": "partial.api_automatically_solves_captcha",
+    "value": "Api tự động giải captcha",
+    "useT": "t('partial.api_automatically_solves_captcha')",
+    "useJSX": "{t('partial.api_automatically_solves_captcha')}"
+  },
+  {
+    "key": "partial.only_check_the_checkpoint_form_of_the_account",
+    "value": "Chỉ kiểm tra dạng checkpoint của tài khoản",
+    "useT": "t('partial.only_check_the_checkpoint_form_of_the_account')",
+    "useJSX": "{t('partial.only_check_the_checkpoint_form_of_the_account')}"
+  },
+  {
+    "key": "partial.automatically_re-solve_captcha",
+    "value": "Tự động giải lại captcha",
+    "useT": "t('partial.automatically_re-solve_captcha')",
+    "useJSX": "{t('partial.automatically_re-solve_captcha')}"
+  },
+  {
+    "key": "partial.once_if_there_is_an_error",
+    "value": "Lần nếu lấy lỗi",
+    "useT": "t('partial.once_if_there_is_an_error')",
+    "useJSX": "{t('partial.once_if_there_is_an_error')}"
+  },
+  {
+    "key": "partial._automatically_regenerate_authentication_code_from_email",
+    "value": "Tự động lại code xác thực từ email",
+    "useT": "t('partial._automatically_regenerate_authentication_code_from_email')",
+    "useJSX": "{t('partial._automatically_regenerate_authentication_code_from_email')}"
+  },
+  {
+    "key": "partial.log_out_of_all_devices_after_successfully_unlocking",
+    "value": "Đăng xuất khỏi tất cả các thiết bị sau khi mở khóa thành công",
+    "useT": "t('partial.log_out_of_all_devices_after_successfully_unlocking')",
+    "useJSX": "{t('partial.log_out_of_all_devices_after_successfully_unlocking')}"
+  },
+  {
+    "key": "partial.enter_the_password_you_want_to_change_here",
+    "value": "Nhập mật khẩu muốn đổi vào đây",
+    "useT": "t('partial.enter_the_password_you_want_to_change_here')",
+    "useJSX": "{t('partial.enter_the_password_you_want_to_change_here')}"
+  },
+  {
+    "key": "partial.unlock_configuration_282",
+    "value": "Cấu hình mở khóa 282",
+    "useT": "t('partial.unlock_configuration_282')",
+    "useJSX": "{t('partial.unlock_configuration_282')}"
+  },
+  {
+    "key": "partial.select_photo_folder",
+    "value": "Chọn thư mục ảnh",
+    "useT": "t('partial.select_photo_folder')",
+    "useJSX": "{t('partial.select_photo_folder')}"
+  },
+  {
+    "key": "partial.photo_path",
+    "value": "Đường dẫn ảnh",
+    "useT": "t('partial.photo_path')",
+    "useJSX": "{t('partial.photo_path')}"
+  },
+  {
+    "key": "partial.select_photo_automatically_active_by_website",
+    "value": "Chọn ảnh tự động theo website",
+    "useT": "t('partial.select_photo_automatically_active_by_website')",
+    "useJSX": "{t('partial.select_photo_automatically_active_by_website')}"
+  },
+  {
+    "key": "partial.allow_maximum_phone_number_re-rental",
+    "value": "Cho phép thuê lại số điện thoại tối đa",
+    "useT": "t('partial.allow_maximum_phone_number_re-rental')",
+    "useJSX": "{t('partial.allow_maximum_phone_number_re-rental')}"
+  },
+  {
+    "key": "partial.number_rental_api",
+    "value": "Api thuê số",
+    "useT": "t('partial.number_rental_api')",
+    "useJSX": "{t('partial.number_rental_api')}"
+  },
+  {
+    "key": "partial.automatic_number_rental_api",
+    "value": "Api thuê số tự động",
+    "useT": "t('partial.automatic_number_rental_api')",
+    "useJSX": "{t('partial.automatic_number_rental_api')}"
+  },
+  {
+    "key": "partial.register_a_rental_account_sim_here",
+    "value": "Đăng ký tài khoản thuê sim tại đây",
+    "useT": "t('partial.register_a_rental_account_sim_here')",
+    "useJSX": "{t('partial.register_a_rental_account_sim_here')}"
+  },
+  {
+    "key": "partial.available:_mobi,_vina,_viettel,_vnmb,_telecom._leave_blank:_random",
+    "value": "Khả dụng: Mobi, Vina, Viettel, VNMB, Telecom. Để trống: ngẫu nhiên",
+    "useT": "t('partial.available:_mobi,_vina,_viettel,_vnmb,_telecom._leave_blank:_random')",
+    "useJSX": "{t('partial.available:_mobi,_vina,_viettel,_vnmb,_telecom._leave_blank:_random')}"
+  },
+  {
+    "key": "partial.carrier",
+    "value": "Nhà mạng",
+    "useT": "t('partial.carrier')",
+    "useJSX": "{t('partial.carrier')}"
+  },
+  {
+    "key": "partial.valid_content:_mobi,_vina,_viettel,_vnmb,_telecom",
+    "value": "Nội dung hợp lệ: Mobi, Vina, Viettel, VNMB, Telecom",
+    "useT": "t('partial.valid_content:_mobi,_vina,_viettel,_vnmb,_telecom')",
+    "useJSX": "{t('partial.valid_content:_mobi,_vina,_viettel,_vnmb,_telecom')}"
+  },
+  {
+    "key": "partial.leave_blank",
+    "value": "Để trống",
+    "useT": "t('partial.leave_blank')",
+    "useJSX": "{t('partial.leave_blank')}"
+  },
+  {
+    "key": "partial.change_language_before_opening_282",
+    "value": "Đổi ngôn ngữ trước khi mở 282",
+    "useT": "t('partial.change_language_before_opening_282')",
+    "useJSX": "{t('partial.change_language_before_opening_282')}"
+  },
+  {
+    "key": "partial.change_language_after_opening_282",
+    "value": "Đổi ngôn ngữ sau khi mở 282",
+    "useT": "t('partial.change_language_after_opening_282')",
+    "useJSX": "{t('partial.change_language_after_opening_282')}"
+  },
+  {
+    "key": "partial.configure_mail_unlock",
+    "value": "Cấu hình mở khóa mail",
+    "useT": "t('partial.configure_mail_unlock')",
+    "useJSX": "{t('partial.configure_mail_unlock')}"
+  },
+  {
+    "key": "partial.only_log_in_to_mail",
+    "value": "Chỉ đăng nhập mail",
+    "useT": "t('partial.only_log_in_to_mail')",
+    "useJSX": "{t('partial.only_log_in_to_mail')}"
+  },
+  {
+    "key": "partial.add_recovery_mail",
+    "value": "Thêm mail khôi phục",
+    "useT": "t('partial.add_recovery_mail')",
+    "useJSX": "{t('partial.add_recovery_mail')}"
+  },
+  {
+    "key": "partial.automatically_close_the_browser_after_logging_in_to_mail",
+    "value": "Tự động đóng trình duyệt sau khi đăng nhập mail",
+    "useT": "t('partial.automatically_close_the_browser_after_logging_in_to_mail')",
+    "useJSX": "{t('partial.automatically_close_the_browser_after_logging_in_to_mail')}"
+  },
+  {
+    "key": "partial.check_and_activate_pop3_for_mail",
+    "value": "Kiểm tra và kích hoạt Pop3 cho mail",
+    "useT": "t('partial.check_and_activate_pop3_for_mail')",
+    "useJSX": "{t('partial.check_and_activate_pop3_for_mail')}"
+  },
+  {
+    "key": "partial.add_hotmail_here._one_line_per_email",
+    "value": "Thêm hotmail vào đây. Mỗi mail một dòng",
+    "useT": "t('partial.add_hotmail_here._one_line_per_email')",
+    "useJSX": "{t('partial.add_hotmail_here._one_line_per_email')}"
+  },
+  {
+    "key": "partial.additional_characters{_abc_|_1c_|...}",
+    "value": "Kí tự kèm thêm{ abc | 1c |...}",
+    "useT": "t('partial.additional_characters{_abc_|_1c_|...}')",
+    "useJSX": "{t('partial.additional_characters{_abc_|_1c_|...}')}"
+  },
+  {
+    "key": "partial.change_mail_password",
+    "value": "Đổi mật khẩu mail",
+    "useT": "t('partial.change_mail_password')",
+    "useJSX": "{t('partial.change_mail_password')}"
+  },
+  {
+    "key": "partial.require_email_to_have_recovery_mail_available_to_authenticate_password_change",
+    "value": "Yêu cầu mail có sẵn mail khôi phục để xác thực đổi mật khẩu",
+    "useT": "t('partial.require_email_to_have_recovery_mail_available_to_authenticate_password_change')",
+    "useJSX": "{t('partial.require_email_to_have_recovery_mail_available_to_authenticate_password_change')}"
+  },
+  {
+    "key": "partial.unlock_mail",
+    "value": "Mở khóa mail",
+    "useT": "t('partial.unlock_mail')",
+    "useJSX": "{t('partial.unlock_mail')}"
+  },
+  {
+    "key": "partial.automatically_prioritize_adding_recovery_mail_to_unlock._if_you_require_an_additional_phone_number_to_unlock,_it_will_automatically_rent_the_number_and_add",
+    "value": "Tự động ưu tiên thêm mail khôi phục để mở khóa. Nếu yêu cầu thêm số điện thoại để mở khóa sẽ tự động thuê số và thêm",
+    "useT": "t('partial.automatically_prioritize_adding_recovery_mail_to_unlock._if_you_require_an_additional_phone_number_to_unlock,_it_will_automatically_rent_the_number_and_add')",
+    "useJSX": "{t('partial.automatically_prioritize_adding_recovery_mail_to_unlock._if_you_require_an_additional_phone_number_to_unlock,_it_will_automatically_rent_the_number_and_add')}"
+  },
+  {
+    "key": "partial.replace_recovery_mail_(add_new_mail_and_delete_all_old_mail)",
+    "value": "Thay thế mail khôi phục (Thêm mail mới và xóa toàn bộ mail cũ)",
+    "useT": "t('partial.replace_recovery_mail_(add_new_mail_and_delete_all_old_mail)')",
+    "useJSX": "{t('partial.replace_recovery_mail_(add_new_mail_and_delete_all_old_mail)')}"
+  },
+  {
+    "key": "partial.chrome_link",
+    "value": "Đường dẫn Chrome",
+    "useT": "t('partial.chrome_link')",
+    "useJSX": "{t('partial.chrome_link')}"
+  },
+  {
+    "key": "partial.chrome_version",
+    "value": "Phiên bản Chrome",
+    "useT": "t('partial.chrome_version')",
+    "useJSX": "{t('partial.chrome_version')}"
+  },
+  {
+    "key": "partial.please_select_the_chrome_version_listed_above",
+    "value": "Vui lòng chọn version Chrome đã dẫn phía trên",
+    "useT": "t('partial.please_select_the_chrome_version_listed_above')",
+    "useJSX": "{t('partial.please_select_the_chrome_version_listed_above')}"
+  },
+  {
+    "key": "partial.number_of_threads_open_at_the_same_time",
+    "value": "Số luồng mở đồng thời",
+    "useT": "t('partial.number_of_threads_open_at_the_same_time')",
+    "useJSX": "{t('partial.number_of_threads_open_at_the_same_time')}"
+  },
+  {
+    "key": "partial.turn_off_browser_image",
+    "value": "Tắt hình ảnh của trình duyệt",
+    "useT": "t('partial.turn_off_browser_image')",
+    "useJSX": "{t('partial.turn_off_browser_image')}"
+  },
+  {
+    "key": "partial.chrome_number_displayed_in_a_row",
+    "value": "Số Chrome hiển thị trên một hàng",
+    "useT": "t('partial.chrome_number_displayed_in_a_row')",
+    "useJSX": "{t('partial.chrome_number_displayed_in_a_row')}"
+  },
+  {
+    "key": "partial.using_the_facebook_app_interface",
+    "value": "Sửa dụng giao diện App Facebook",
+    "useT": "t('partial.using_the_facebook_app_interface')",
+    "useJSX": "{t('partial.using_the_facebook_app_interface')}"
+  },
+  {
+    "key": "partial._delay_when_opening_chrome",
+    "value": "Delay khi mở Chrome",
+    "useT": "t('partial._delay_when_opening_chrome')",
+    "useJSX": "{t('partial._delay_when_opening_chrome')}"
+  },
+  {
+    "key": "partial.sign_in_with_account_cookies",
+    "value": "Đăng nhập bằng Cookies tài khoản",
+    "useT": "t('partial.sign_in_with_account_cookies')",
+    "useJSX": "{t('partial.sign_in_with_account_cookies')}"
+  },
+  {
+    "key": "partial.delay_when_closing_chrome",
+    "value": "Delay khi đóng Chrome",
+    "useT": "t('partial.delay_when_closing_chrome')",
+    "useJSX": "{t('partial.delay_when_closing_chrome')}"
+  },
+  {
+    "key": "partial.automatically_get_account_cookies",
+    "value": "Tự động lấy Cookies tài khoản",
+    "useT": "t('partial.automatically_get_account_cookies')",
+    "useJSX": "{t('partial.automatically_get_account_cookies')}"
+  },
+  {
+    "key": "partial.customize_input_speed",
+    "value": "Tùy chỉnh tốc độ nhập liệu",
+    "useT": "t('partial.customize_input_speed')",
+    "useJSX": "{t('partial.customize_input_speed')}"
+  },
+  {
+    "key": "partial.use_automatic_proxy_extensions_when_using_static_ip",
+    "value": "Sử dụng Extensions Proxy tự động khi dùng IP tĩnh",
+    "useT": "t('partial.use_automatic_proxy_extensions_when_using_static_ip')",
+    "useJSX": "{t('partial.use_automatic_proxy_extensions_when_using_static_ip')}"
+  },
+  {
+    "key": "partial.automatically_get_account_token",
+    "value": "Tự động lấy token tài khoản",
+    "useT": "t('partial.automatically_get_account_token')",
+    "useJSX": "{t('partial.automatically_get_account_token')}"
+  },
+  {
+    "key": "partial.select_interface_opens_when_'log_in_to_facebook'_in_account_management",
+    "value": "Chọn giao diện mở khi 'Đăng nhập Facebook' trong quản lý tài khoản",
+    "useT": "t('partial.select_interface_opens_when_'log_in_to_facebook'_in_account_management')",
+    "useJSX": "{t('partial.select_interface_opens_when_'log_in_to_facebook'_in_account_management')}"
+  },
+  {
+    "key": "partial.automatically_backup_data_every_monday",
+    "value": "Tự động Backup dữ liệu vào thứ 2 hàng tuần",
+    "useT": "t('partial.automatically_backup_data_every_monday')",
+    "useJSX": "{t('partial.automatically_backup_data_every_monday')}"
+  },
+  {
+    "key": "partial.data_settings",
+    "value": "Cài đặt dữ liệu",
+    "useT": "t('partial.data_settings')",
+    "useJSX": "{t('partial.data_settings')}"
+  },
+  {
+    "key": "partial.profile_folder_path",
+    "value": "Đường dẫn thư mục Profile",
+    "useT": "t('partial.profile_folder_path')",
+    "useJSX": "{t('partial.profile_folder_path')}"
+  },
+  {
+    "key": "partial.backup_database",
+    "value": "Sao lưu Cơ sở dữ liệu",
+    "useT": "t('partial.backup_database')",
+    "useJSX": "{t('partial.backup_database')}"
+  },
+  {
+    "key": "partial.backup",
+    "value": "Sao lưu",
+    "useT": "t('partial.backup')",
+    "useJSX": "{t('partial.backup')}"
+  },
+  {
+    "key": "partial.backup_time_last_saved._database_was_never_backed_up",
+    "value": "Thời gian sao lưu gần nhất. Cơ sở dữ liệu chưa bao giờ được sao lưu",
+    "useT": "t('partial.backup_time_last_saved._database_was_never_backed_up')",
+    "useJSX": "{t('partial.backup_time_last_saved._database_was_never_backed_up')}"
+  },
+  {
+    "key": "partial.restore_database",
+    "value": "Khôi phục Cơ sở dữ liệu",
+    "useT": "t('partial.restore_database')",
+    "useJSX": "{t('partial.restore_database')}"
+  },
+  {
+    "key": "partial.restore",
+    "value": "Khôi phục",
+    "useT": "t('partial.restore')",
+    "useJSX": "{t('partial.restore')}"
+  },
+  {
+    "key": "partial.database_was_never_restored",
+    "value": "Cơ sở dữ liệu chưa bao giờ được khôi phục",
+    "useT": "t('partial.database_was_never_restored')",
+    "useJSX": "{t('partial.database_was_never_restored')}"
+  },
+  {
+    "key": "partial.general_settings",
+    "value": "Cài đặt chung",
+    "useT": "t('partial.general_settings')",
+    "useJSX": "{t('partial.general_settings')}"
+  },
+  {
+    "key": "partial.poxy_settings",
+    "value": "Cài đặt Poxy",
+    "useT": "t('partial.poxy_settings')",
+    "useJSX": "{t('partial.poxy_settings')}"
+  },
+  {
+    "key": "partial.save",
+    "value": "Lưu",
+    "useT": "t('partial.save')",
+    "useJSX": "{t('partial.save')}"
+  },
+  {
+    "key": "partial.select_display_column",
+    "value": "Chọn cột hiển thị",
+    "useT": "t('partial.select_display_column')",
+    "useJSX": "{t('partial.select_display_column')}"
   }
 ]

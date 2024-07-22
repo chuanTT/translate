@@ -1,20 +1,18 @@
 en - Cài đặt - Settings
-en - Hướng dẫn sử dụng - User Guide
-en - Thông báo - Notice
+en - Hướng dẫn sử dụng - User Instructions
+en - Thông báo - Notifications
 en - Điều khoản - Terms
+en - Điều khoản sử dụng - Terms of Use
+en - Đồng ý điều khoản sử dụng và không hiển thị thêm nữa - Agree to the terms of use and no further displays
+en - Đồng ý - Agree
 en - Đăng nhập thành công - Login successful
 en - Đăng nhập thất bại - Login failed
-en - Đăng nhập - Login
-en - Đăng xuất - Logout
-en - Quên mật khẩu - Forgot password
-en - Bạn chưa có tài khoản? - You don't have an account?
-en - Tạo tài khoản mới - Create new account
-en - Nhập - Enter
-en - Mật khẩu - Password
-en - Vui lòng nhập email - Please enter email
-en - Email không đúng định dạng - Email is not in the correct format
-en - Vui lòng nhập mật khẩu - Please enter password
-en - Mật khẩu tối thiểu 4 kí tự - Minimum password is 4 characters on one's own
+en - Bỏ chọn - Uncheck
+en - Đăng nhập Facebook - Log in to Facebook
+en - Đăng nhập Hotmail - Sign in to Hotmail
+en - Tạo Chorme Profile - Create Chorme Profile
+en - Kiểm tra tài khoản - Check account
+en - Kiểm tra năm tạo tài khoản - Check year of account creation
 en - Quản lý tài khoản - Account management
 en - Quản lý nội dung - Content management
 en - Tương tác tài khoản - Account interaction
@@ -46,6 +44,48 @@ en - Mở checkpoint 282 - Open checkpoint 282
 en - Mở khóa Mail - Unlock Mail
 en - Lịch sử hoạt động -  Operation History
 en - Cấu hình chạy tương tác - Interactive Run Configuration
+en - Đăng nhập - Login
+en - Đăng xuất - Logout
+en - Quên mật khẩu - Forgot password
+en - Bạn chưa có tài khoản? - You don't have an account?
+en - Tạo tài khoản mới - Create new account
+en - Nhập - Enter
+en - Mật khẩu - Password
+en - Vui lòng nhập email - Please enter email
+en - Email không đúng định dạng - Email is not in the correct format
+en - Vui lòng nhập mật khẩu - Please enter password
+en - Mật khẩu tối thiểu 4 kí tự - Minimum password is 4 characters on one's own
+en - Mail khẩu email - Email password
+en - Mail khôi phục - Recovery email
+en - Trạng thái - Status
+en - Danh mục - Category
+en - Ngày sinh - Date of birth
+en - Năm tạo tài khoản - Year of account creation
+en - Giới tính - Gender
+en - Hành động cuối - Last action
+en - Lần tương tác cuối - Last interaction
+en - Ghi chú - Notes
+en - Mở Chrome - Open Chrome
+en - Thông tin hành động đang chạy - Running action information
+en - Tiến Tình đã chạy - Tien Tinh has run
+en - Tiêu đề - Title
+en - Kèm ảnh - Attach photo
+en - Số ảnh kèm - Number of attached photos
+en - Kiểu bài - Post type
+en - Thời gian - Time
+en - Thành công - Success
+en - Quá trình - Process
+en - Ngày đăng - Posting date
+en - UID lấy bài - UID to get post
+en - Họ tên - Full name
+en - ID Group lấy bài - Group ID to get post
+en - Tên page - Page name
+en - Số video - Video number
+en - Link bài viết - Article link
+en - Số ảnh - Number photo
+en - Mật khẩu mail - Mail password
+en - Mail Khôi phục - Recovery mail
+en - Tên - Name
 en - Tạo tài khoản - Create account
 en - Tải lại - Reload
 en - Ẩn hiển cột - Show columns
@@ -75,7 +115,7 @@ en - Nội dung - Content
 en - Tổng số nội dung chọn đăng - Total content selected to post
 en - Cấu hình đăng bài Profile - Posting configuration Profile 
 en - Chuyển tài khoản nếu đăng lỗi - Switch account if posting error
-en - Khi tài khoản thực hiện hành động bị lỗi vượt quá số lần cho phép sẽ bị dừng và chuyển sang tài khoản khác để tránh bị khóa tài khoản - When the account performs an error action exceeding the allowed number of times, it will be stopped and transferred to another account to avoid account being locked
+en - Khi tài khoản thực hiện hành động bị lỗi vượt quá số lần cho phép sẽ bị dừng và chuyển sang tài khoản khác để tránh bị khóa tài khoản - When the account performs an error exceeding the allowed number of times, it will be stopped and transferred to another account to avoid account being locked
 en - Chuyển tài khoản sau khi đăng - Switch account after posting
 en - Khoảng cách 2 lần đăng liên tiếp - 2 times gap post consecutively
 en - Thời gian dừng chờ lượt hành động tiếp theo - Time to wait for next action
@@ -96,7 +136,7 @@ en - Lần - Times
 en - Mỗi bình luận tối đa -  Maximum per comment
 en - Khoảng cách 2 lần đăng - Distance between 2 posts
 en - Bình luận theo danh sách UID - Comment according to UID list
-en - Chọn ngẫu nhiên - Choose randomly
+en - Chọn ngẫu nhiên - Randomly selected
 en - Theo thứ tự - In order
 en - Vui lòng nhập UID tại đây! - Please enter UID here!
 en - Cho phép vào trùng UID để bình luận giữa các tài khoản - Allow duplicate UID to comment between accounts
@@ -147,7 +187,7 @@ en - Thích video trên watch -  Like videos on watch
 en - Theo dõi ngẫu nhiên chủ đăng video - Follow random video creators
 en - Tương tác nâng cao - Advanced interactions
 en - Kháng Spam - Resistant to Spam
-en - Tin spam - Spam messages
+en - Tin spam - Spam news
 en - Đổi ngôn ngữ tài khoản - Change account language
 en - Lấy toàn bộ thông tin tài khoản - Get all account information
 en - Đăng xuất khỏi tất cả các thiết bị sau khi tương tác - Sign out of all devices after interacting 
@@ -209,7 +249,7 @@ en - Chuyển tài khoản sau đăng - Switch account after posting
 en - Đăng vào nhóm đã tham gia của tài khoản - Post to the account's joined group
 en - Không đăng trùng nhóm - Do not post in duplicate groups
 en - Cấu hình quét bài viết - Configure article scanning
-en - Nhập UID lấy bài. Mỗi UID cách nhau dấu ',' - Enter UID to retrieve articles. Each UID is separated by a ','
+en - Nhập UID lấy bài. Mỗi UID cách nhau dấu ',' - Enter UID to retrieve posts. Each UID is separated by a ','
 en - Nhập ID Nhóm lấy bài - Enter the post group ID
 en - Mỗi UID quét ra - Each scanned UID
 en - Cấu hình chỉnh bài viết - Configure post editing
@@ -222,7 +262,7 @@ en - Chuyển tài khoản sau tham gia - Switch account after joining
 en - Đổi từ khóa khi tài khoản tham gia mỗi - Change keyword when account joins each time
 en - Quét thông tin nhóm của tài khoản - Scan account's group information
 en - Tham gia theo ID nhóm - Join by group ID
-en - Vui lòng nhập danh sách ID nhóm tại đây! - Please enter group Group ID list here!
+en - Vui lòng nhập danh sách ID nhóm tại đây! - Please enter a name Group ID list here!
 en - Tham gia theo từ khóa - Join by keyword
 en - Tự động xóa ID nhóm sau khi tham gia nhóm - Automatically delete group ID after joining group
 en - Chọn lần lượt ID nhóm - Select group ID one by one
@@ -274,8 +314,8 @@ en - Cho phép đăng trùng nhóm giữa các Page - Allow duplicate groups to 
 en - Chọn phép tự động tham gia nhóm chưa tham gia - Choose to automatically join groups that have not yet joined
 en - Bình luận theo danh sách ID nhóm - Comment according to the group ID list
 en - Cho phép vào trùng nhóm để bình luận giữa các Page - Allow duplicate groups to comment between Pages
-en - Cấu hình tương tác bài viết theo ID - Configuration Article interaction image by ID
-en - Chia sẻ về Story Page Profile - Share on Story Page Profile
+en - Cấu hình tương tác bài viết theo ID - Configuration article interaction image by ID
+en - Chia sẻ về Story Page Profile - Share about Story Page Profile
 en - Vui lòng nhập nội dung chia sẻ bài viết vào đây. Mỗi nội dung một dòng! - Please enter the article sharing content here. One line per content!
 en - Cấu hình tham gia nhóm theo UID - Configure group participation by UID
 en - Nhập ID vào đây. Mỗi ID một dòng - Enter ID here. One line per ID
@@ -405,4 +445,130 @@ en - Không nhắn tin trùng UID giữa các tài khoản - Do not text duplica
 en - Tự động xóa UID đã nhắn tin trong File trên! - Automatically delete the UIDs you have messaged in the File above!
 en - Thích bài viết trên trang cá nhân của UID - Like the article on your personal page of UID
 en - Bình luận bài viết trên trang cá nhân của UID - Comment on the article on UID's personal page
-en - Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng - Enter comment content here. Each content is 1 line
+en - Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng - Enter comment content here. One line per content
+en - Cấu hình thay đổi thông tin cơ bản - Configuration to change basic information
+en - Cấu hình thay đổi thông tin cơ bản - Configuration to change basic information
+en - Đổi Avatar - Change Avatar
+en - Thư mục chứa Avatar - Folder containing Avatar
+en - Đổi Cover - Change Cover
+en - Thư mục chứa Cover - Folder containing Cover
+en - Thay đổi giới tính - Change gender
+en - Nam - Male
+en - Nữ - Female
+en - Đổi ngày sinh - Change date of birth
+en - Đổi ngẫu nhiên ngày sinh - Randomly change birthday
+en - Ngày - Day
+en - Tháng - Month
+en - Năm - Year
+en - Thay đổi họ tên tài khoản - Change account full name
+en - Nhập họ vào đây - Enter last name here
+en - Nhập tên đệm vào đây - Enter middle name here
+en - Nhập tên vào đây - Enter first name here
+en - Đổi ngẫu nhiên họ tên từ hệ thống - Randomly change full name from the system
+en - Thay đổi mô tả bản thân - Change model Describe yourself
+en - Nhập mô tả vào đây. Tối đa mỗi nội dung 200 kí tự - Enter description here. Maximum each content is 200 characters
+en - Cập nhật Quê quán, Thành phố - Update Hometown, City
+en - Nhập quê quán. Thành phố vào đây - Enter hometown. City here
+en - Cập nhật Trường Đại học, Trung học - Update University, High School
+en - Nhập trường - Enter School
+en - Cập nhật Nơi làm việc - Update Workplace
+en - Nhập nơi làm việc vào đây - Enter workplace here
+en - Thay đổi quyền riêng tư - Change privacy
+en - Ai có thể xem bài viết của bạn - Who can see your posts
+en - Ai có thể xem danh sách bạn bè - Who can see your list friend book
+en - Cấu hình thay đổi thông tin nâng cao - Advanced information change configuration
+en - Đổi thông tin bằng link Hacker - Change information with Hacker link
+en - Thêm mail - Add mail
+en - Nhập Mail - Import Mail
+en - Xóa tất cả Mail cũ - Delete all old mail
+en - Xóa số điện thoại - Delete phone number
+en - Thay đổi mật khẩu - Change password
+en - Nhập mật khẩu vào đây - Enter password here
+en - Mật khẩu mặc định - Password default
+en - Mật khẩu ngẫu nhiên cộng số - Random password plus numbers
+en - Lịch sử thay đổi mật khẩu mail được lưu ở đây - Email password change history is saved here
+en - Cấu hình xóa thông tin tài khoản - Configure deletion of account information
+en - Xóa tên phụ - Delete secondary name
+en - Ẩn mail của tài khoản - Hide account email
+en - Xóa bỏ nhật ký đăng nhập - Delete login log
+en - Ẩn ngày tháng năm sinh - Hide date year of birth
+en - Đăng xuất khỏi tất cả các thiết bị - Sign out all devices
+en - Xóa thiết bị tin cậy - Remove trusted devices
+en - Cấu hình bật tắt 2FA - Configure 2FA toggle
+en - Dừng sau khi bật tắt 2FA - Stop after toggling 2FA
+en - Tắt 2FA - Disable 2FA
+en - Bật 2FA - Enable 2FA
+en - Nếu tài khoản đã có 2FA - If account already has 2FA
+en - Không bật 2FA - Do not enable 2FA
+en - Giữ 2FA cũ và thêm 2FA mới - Keep 2FA old and add new 2FA
+en - Xóa 2FA cũ và thêm 2FA mới - Delete old 2FA and add new 2FA
+en - Cấu hình mở khóa tài khoản - Account unlock configuration
+en - Api captcha - Captcha Api
+en - Api tự động giải captcha - Api automatically solves captcha
+en - Chỉ kiểm tra dạng checkpoint của tài khoản - Only check the checkpoint form of the account
+en - Tự động giải lại captcha - Automatically re-solve captcha
+en - Lần nếu lấy lỗi - Once if there is an error
+en - Tự động lại code xác thực từ email -  Automatically regenerate authentication code from email
+en - Đăng xuất khỏi tất cả các thiết bị sau khi mở khóa thành công - Log out of all devices after successfully unlocking
+en - Nhập mật khẩu muốn đổi vào đây - Enter the password you want to change here
+en - Cấu hình mở khóa 282 - Unlock configuration 282
+en - Chọn thư mục ảnh - Select photo folder
+en - Đường dẫn ảnh - Photo path
+en - Chọn ảnh tự động theo website - Select photo automatically Active by website
+en - Cho phép thuê lại số điện thoại tối đa - Allow maximum phone number re-rental
+en - Api thuê số - Number rental Api
+en - Api thuê số tự động - Automatic number rental Api
+en - Đăng ký tài khoản thuê sim tại đây - Register a sim rental account here
+en - Khả dụng: Mobi, Vina, Viettel, VNMB, Telecom. Để trống: ngẫu nhiên - Available: Mobi, Vina, Viettel, VNMB, Telecom. Leave blank: random
+en - Nhà mạng - Carrier
+en - Nội dung hợp lệ: Mobi, Vina, Viettel, VNMB, Telecom - Valid content: Mobi, Vina, Viettel, VNMB, Telecom
+en - Để trống - Leave blank
+en - Đổi ngôn ngữ trước khi mở 282 - Change language before opening 282
+en - Đổi ngôn ngữ sau khi mở 282 - Change language after opening 282
+en - Cấu hình mở khóa mail - Configure mail unlock
+en - Chỉ đăng nhập mail - Only Log in to mail
+en - Thêm mail khôi phục - Add recovery mail
+en - Tự động đóng trình duyệt sau khi đăng nhập mail - Automatically close the browser after logging in to mail
+en - Kiểm tra và kích hoạt Pop3 cho mail - Check and activate Pop3 for mail
+en - Thêm hotmail vào đây. Mỗi mail một dòng - Add hotmail here. One line per email
+en - Kí tự kèm thêm{ abc | 1c |...} - Additional characters{ abc | 1c |...}
+en - Đổi mật khẩu mail - Change mail password
+en - Yêu cầu mail có sẵn mail khôi phục để xác thực đổi mật khẩu - Require email to have recovery mail available to authenticate password change
+en - Mở khóa mail - Unlock mail
+en - Tự động ưu tiên thêm mail khôi phục để mở khóa. Nếu yêu cầu thêm số điện thoại để mở khóa sẽ tự động thuê số và thêm - Automatically prioritize adding recovery mail to unlock. If you require an additional phone number to unlock, it will automatically rent the number and add
+en - Thay thế mail khôi phục (Thêm mail mới và xóa toàn bộ mail cũ) - Replace recovery mail (Add new mail and delete all old mail)
+en - Api thuê số - Number rental API
+en - Api thuê số tự động - Automatic number rental Api
+en - Đăng ký tài khoản thuê sim tại đây - Register a rental account sim here
+en - Đường dẫn Chrome - Chrome link
+en - Phiên bản Chrome - Chrome version
+en - Vui lòng chọn version Chrome đã dẫn phía trên - Please select the Chrome version listed above
+en - Số luồng mở đồng thời - Number of threads open at the same time
+en - Tắt hình ảnh của trình duyệt - Turn off browser image
+en - Số Chrome hiển thị trên một hàng - Chrome number displayed in a row
+en - Sửa dụng giao diện App Facebook - Using the Facebook App interface
+en - Delay khi mở Chrome -  Delay when opening Chrome
+en - Đăng nhập bằng Cookies tài khoản - Sign in with account Cookies
+en - Delay khi đóng Chrome - Delay when closing Chrome
+en - Tự động lấy Cookies tài khoản - Automatically get account Cookies
+en - Tùy chỉnh tốc độ nhập liệu - Customize input speed
+en - Sử dụng Extensions Proxy tự động khi dùng IP tĩnh - Use Automatic Proxy Extensions when using static IP
+en - Tự động lấy token tài khoản - Automatically get account token
+en - Chọn giao diện mở khi 'Đăng nhập Facebook' trong quản lý tài khoản - Select interface opens when 'Log in to Facebook' in account management
+en - Tự động Backup dữ liệu vào thứ 2 hàng tuần - Automatically Backup data every Monday
+en - Cài đặt dữ liệu - Data settings
+en - Đường dẫn thư mục Profile - Profile folder path
+en - Sao lưu Cơ sở dữ liệu - Backup Database
+en - Sao lưu - Backup
+en - Thời gian sao lưu gần nhất. Cơ sở dữ liệu chưa bao giờ được sao lưu - Backup time last saved. Database was never backed up
+en - Khôi phục Cơ sở dữ liệu - Restore Database
+en - Khôi phục - Restore
+en - Cơ sở dữ liệu chưa bao giờ được khôi phục - Database was never restored
+en - Cài đặt chung - General settings
+en - Cài đặt Poxy - Poxy settings
+en - Lưu - Save
+en - Chọn cột hiển thị - Select display column
+en - Chạy lại từ đầu - Rerun from start
+en - Tự động lấy danh sách nhóm hiện tại của tài khoản - Automatically get the account's current group list
+en - Tự động lấy danh sách bạn bè hiện tại của tài khoản - Automatically get the account's current friends list
+en - Mỗi lần dừng - Every stop

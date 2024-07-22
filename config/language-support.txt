@@ -1,4 +1,4 @@
-af - Afrikaans
+""af - Afrikaans
 sq - Albanian
 am - Amharic
 ar - Arabic
@@ -93,7 +93,7 @@ pl - Polish
 pt - Portuguese
 pa - Punjabi
 qu - Quechua
-otq - Querétaro Otomi
+otq - QuerÃ©taro Otomi
 ro - Romanian
 ru - Russian
 sm - Samoan

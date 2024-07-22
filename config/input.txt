@@ -50,6 +50,48 @@ Cài đặt
 Hướng dẫn sử dụng
 Thông báo
 Điều khoản
+Điều khoản sử dụng
+Đồng ý điều khoản sử dụng và không hiển thị thêm nữa
+Đồng ý
+*context_menu
+Bỏ chọn
+Đăng nhập Facebook
+Đăng nhập Hotmail
+Tạo Chorme Profile
+Kiểm tra tài khoản
+Kiểm tra năm tạo tài khoản
+*table
+Mail khẩu email
+Mail khôi phục
+Trạng thái
+Danh mục
+Ngày sinh
+Năm tạo tài khoản
+Giới tính
+Hành động cuối
+Lần tương tác cuối
+Ghi chú
+Mở Chrome
+Thông tin hành động đang chạy
+Tiến Tình đã chạy
+Tiêu đề
+Kèm ảnh
+Số ảnh kèm
+Kiểu bài
+Thời gian
+Thành công
+Quá trình
+Ngày đăng
+UID lấy bài
+Họ tên
+ID Group lấy bài
+Tên page
+Số video
+Link bài viết
+Số ảnh
+Mật khẩu mail
+Mail Khôi phục
+Tên
 *partial
 Tạo tài khoản
 Tải lại
@@ -411,3 +453,129 @@ Tự động xóa UID đã nhắn tin trong File trên!
 Thích bài viết trên trang cá nhân của UID
 Bình luận bài viết trên trang cá nhân của UID
 Nhập nội dung bình luận vào đây. Mỗi nội dung 1 dòng
+Cấu hình thay đổi thông tin cơ bản
+Cấu hình thay đổi thông tin cơ bản
+Đổi Avatar
+Thư mục chứa Avatar
+Đổi Cover
+Thư mục chứa Cover
+Thay đổi giới tính
+Nam
+Nữ
+Đổi ngày sinh
+Đổi ngẫu nhiên ngày sinh
+Ngày
+Tháng
+Năm
+Thay đổi họ tên tài khoản
+Nhập họ vào đây
+Nhập tên đệm vào đây
+Nhập tên vào đây
+Đổi ngẫu nhiên họ tên từ hệ thống
+Thay đổi mô tả bản thân
+Nhập mô tả vào đây. Tối đa mỗi nội dung 200 kí tự
+Cập nhật Quê quán, Thành phố
+Nhập quê quán. Thành phố vào đây
+Cập nhật Trường Đại học, Trung học
+Nhập trường
+Cập nhật Nơi làm việc
+Nhập nơi làm việc vào đây
+Thay đổi quyền riêng tư
+Ai có thể xem bài viết của bạn
+Ai có thể xem danh sách bạn bè
+Cấu hình thay đổi thông tin nâng cao
+Đổi thông tin bằng link Hacker
+Thêm mail
+Nhập Mail
+Xóa tất cả Mail cũ
+Xóa số điện thoại
+Thay đổi mật khẩu
+Nhập mật khẩu vào đây
+Mật khẩu mặc định
+Mật khẩu ngẫu nhiên cộng số
+Lịch sử thay đổi mật khẩu mail được lưu ở đây
+Cấu hình xóa thông tin tài khoản
+Xóa tên phụ
+Ẩn mail của tài khoản
+Xóa bỏ nhật ký đăng nhập
+Ẩn ngày tháng năm sinh
+Đăng xuất khỏi tất cả các thiết bị
+Xóa thiết bị tin cậy
+Cấu hình bật tắt 2FA
+Dừng sau khi bật tắt 2FA
+Tắt 2FA
+Bật 2FA
+Nếu tài khoản đã có 2FA
+Không bật 2FA
+Giữ 2FA cũ và thêm 2FA mới
+Xóa 2FA cũ và thêm 2FA mới
+Cấu hình mở khóa tài khoản
+Api captcha
+Api tự động giải captcha
+Chỉ kiểm tra dạng checkpoint của tài khoản
+Tự động giải lại captcha
+Lần nếu lấy lỗi
+Tự động lại code xác thực từ email
+Đăng xuất khỏi tất cả các thiết bị sau khi mở khóa thành công
+Nhập mật khẩu muốn đổi vào đây
+Cấu hình mở khóa 282
+Chọn thư mục ảnh
+Đường dẫn ảnh
+Chọn ảnh tự động theo website
+Cho phép thuê lại số điện thoại tối đa
+Api thuê số
+Api thuê số tự động
+Đăng ký tài khoản thuê sim tại đây
+Khả dụng: Mobi, Vina, Viettel, VNMB, Telecom. Để trống: ngẫu nhiên
+Nhà mạng
+Nội dung hợp lệ: Mobi, Vina, Viettel, VNMB, Telecom
+Để trống
+Đổi ngôn ngữ trước khi mở 282
+Đổi ngôn ngữ sau khi mở 282
+Cấu hình mở khóa mail
+Chỉ đăng nhập mail
+Thêm mail khôi phục
+Tự động đóng trình duyệt sau khi đăng nhập mail
+Kiểm tra và kích hoạt Pop3 cho mail
+Thêm hotmail vào đây. Mỗi mail một dòng
+Kí tự kèm thêm{ abc | 1c |...}
+Đổi mật khẩu mail
+Yêu cầu mail có sẵn mail khôi phục để xác thực đổi mật khẩu
+Mở khóa mail
+Tự động ưu tiên thêm mail khôi phục để mở khóa. Nếu yêu cầu thêm số điện thoại để mở khóa sẽ tự động thuê số và thêm
+Thay thế mail khôi phục (Thêm mail mới và xóa toàn bộ mail cũ)
+Api thuê số
+Api thuê số tự động
+Đăng ký tài khoản thuê sim tại đây
+Đường dẫn Chrome
+Phiên bản Chrome
+Vui lòng chọn version Chrome đã dẫn phía trên
+Số luồng mở đồng thời
+Tắt hình ảnh của trình duyệt
+Số Chrome hiển thị trên một hàng
+Sửa dụng giao diện App Facebook
+Delay khi mở Chrome
+Đăng nhập bằng Cookies tài khoản
+Delay khi đóng Chrome
+Tự động lấy Cookies tài khoản
+Tùy chỉnh tốc độ nhập liệu
+Sử dụng Extensions Proxy tự động khi dùng IP tĩnh
+Tự động lấy token tài khoản
+Chọn giao diện mở khi 'Đăng nhập Facebook' trong quản lý tài khoản
+Tự động Backup dữ liệu vào thứ 2 hàng tuần
+Cài đặt dữ liệu
+Đường dẫn thư mục Profile
+Sao lưu Cơ sở dữ liệu
+Sao lưu
+Thời gian sao lưu gần nhất. Cơ sở dữ liệu chưa bao giờ được sao lưu
+Khôi phục Cơ sở dữ liệu
+Khôi phục
+Cơ sở dữ liệu chưa bao giờ được khôi phục
+Cài đặt chung
+Cài đặt Poxy
+Lưu
+Chọn cột hiển thị
+Chạy lại từ đầu
+Tự động lấy danh sách nhóm hiện tại của tài khoản
+Tự động lấy danh sách bạn bè hiện tại của tài khoản
+Mỗi lần dừng
