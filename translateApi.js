@@ -126,7 +126,7 @@ const dataVi = readFileToPathLanguage("vi.json");
 //   });
 // });
 await awaitAll(listLang, async (lang) => {
-  if (ignoreLang.includes(lang)) return;
+  if (ignoreLang.includes(lang) || !lang) return;
   const arrObj = Object.keys(dataVi);
   let obj = {};
   await awaitAll(arrObj, async (key) => {

@@ -18,7 +18,7 @@ Quản lý tài khoản
 Quản lý nội dung
 Tương tác tài khoản
 Chức năng seeding
-Share bài viết
+Chia sẻ bài viết
 Seeding bài viết
 Kết bạn - Theo dõi bạn bè
 Đồng ý - Hủy kết bạn
@@ -73,7 +73,7 @@ Lần tương tác cuối
 Ghi chú
 Mở Chrome
 Thông tin hành động đang chạy
-Tiến Tình đã chạy
+Tiến trình đã chạy
 Tiêu đề
 Kèm ảnh
 Số ảnh kèm
@@ -368,7 +368,6 @@ Nếu không có trùng sẽ tự động xóa UID sau khi được mời quản
 Vui lòng danh sách UID làm ADMIN vào đây. Mỗi UID một dòng!
 Tổng số nhóm chọn để bình luận
 Vui lòng nhập ID Nhóm tại đây!
-Chuyển tài khoản nễu lỗi liên tiếp
 Nhập câu trả lời Tham gia tại đây!
 Bài viết mới nhất
 Danh sách bài viết
@@ -383,7 +382,7 @@ Khoảng cách 2 lần liên tiếp
 ID bài viết
 Nhập ID bài viết muốn chia sẻ vào đây. Mỗi ID một dòng
 Tích vào đây nếu bài viết chia sẻ là LIVETREAM
-Enter shared content. Spin structure
+Nhập nội dung chia sẻ Cấu trúc spin
 Chia sẻ về tin cá nhân
 Chia sẻ về trang cá nhân
 Chia sẻ vào nhóm
@@ -574,8 +573,10 @@ Cơ sở dữ liệu chưa bao giờ được khôi phục
 Cài đặt chung
 Cài đặt Poxy
 Lưu
-Chọn cột hiển thị
 Chạy lại từ đầu
 Tự động lấy danh sách nhóm hiện tại của tài khoản
 Tự động lấy danh sách bạn bè hiện tại của tài khoản
 Mỗi lần dừng
+Hiển thị cột
+Cấu hình tham gia nhóm
+Nhập danh sách từ khóa vào đây. Mỗi từ khóa một dòng

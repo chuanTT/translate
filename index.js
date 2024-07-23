@@ -59,4 +59,4 @@ const renderVi = arrKeys.reduce((total, key) => {
   return { ...total, [newKey]: convertObjKey(currentValue) };
 }, {});
 
-writeFileLanguage("vi.json", renderVi)
+writeFileLanguage("vi1.json", renderVi)

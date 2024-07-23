@@ -1,38 +1,29 @@
-en - Cài đặt - Settings
-en - Hướng dẫn sử dụng - User Instructions
-en - Thông báo - Notifications
-en - Điều khoản - Terms
-en - Điều khoản sử dụng - Terms of Use
-en - Đồng ý điều khoản sử dụng và không hiển thị thêm nữa - Agree to the terms of use and no further displays
-en - Đồng ý - Agree
-en - Đăng nhập thành công - Login successful
-en - Đăng nhập thất bại - Login failed
 en - Bỏ chọn - Uncheck
 en - Đăng nhập Facebook - Log in to Facebook
 en - Đăng nhập Hotmail - Sign in to Hotmail
 en - Tạo Chorme Profile - Create Chorme Profile
 en - Kiểm tra tài khoản - Check account
 en - Kiểm tra năm tạo tài khoản - Check year of account creation
-en - Quản lý tài khoản - Account management
-en - Quản lý nội dung - Content management
-en - Tương tác tài khoản - Account interaction
-en - Chức năng seeding - Seeding function
-en - Share bài viết - Share article
-en - Seeding bài viết - Seeding article
-en - Kết bạn - Theo dõi bạn bè - Make friends - Follow friends
+en - Quản lý tài khoản - Account Management
+en - Quản lý nội dung - Content Management
+en - Tương tác tài khoản - Account Interaction
+en - Chức năng seeding - Seeding Function
+en - Chia sẻ bài viết - Share Articles
+en - Seeding bài viết - Seeding Articles
+en - Kết bạn - Theo dõi bạn bè - Make Friends - Follow Friends
 en - Đồng ý - Hủy kết bạn - Agree - Unfriend
-en - Tham gia nhóm - Join group
-en - Chức năng đăng bài - Post function 
+en - Tham gia nhóm - Join Group
+en - Chức năng đăng bài - Posting Function post
 en - Đăng bài cá nhân - Personal post
 en - Đăng bài cá nhân theo UID - Personal post by UID
 en - Đăng bài nhóm - Group post
 en - Đăng bài nhóm theo ID - Group post by ID
-en - Đăng Reel Page Profile - Reel Page Profile Post
+en - Đăng Reel Page Profile - Reel Page Profile post
 en - Chức năng bình luận - Comment function
 en - Bình luận trang cá nhân - Personal page comment
 en - Bình luận vào nhóm - Group comment
 en - Chức năng nhắn tin - Message function
-en - Gửi tin nhắn cá nhân - Send personal message
+en - Gửi tin nhắn cá nhân -  Send private messages
 en - Cập nhật thông tin - Update information
 en - Cập nhật thông tin cơ bản - Update basic information
 en - Cập nhật thông tin nâng cao - Update advanced information
@@ -41,20 +32,11 @@ en - Cài đặt 2FA - 2FA settings
 en - Chức năng mở khóa - Unlock function
 en - Mở khóa tài khoản - Unlock account
 en - Mở checkpoint 282 - Open checkpoint 282
-en - Mở khóa Mail - Unlock Mail
-en - Lịch sử hoạt động -  Operation History
+en - Mở khóa Mail - Unlock Mail 
+en - Lịch sử hoạt động - Operational History
 en - Cấu hình chạy tương tác - Interactive Run Configuration
-en - Đăng nhập - Login
-en - Đăng xuất - Logout
-en - Quên mật khẩu - Forgot password
-en - Bạn chưa có tài khoản? - You don't have an account?
-en - Tạo tài khoản mới - Create new account
-en - Nhập - Enter
-en - Mật khẩu - Password
-en - Vui lòng nhập email - Please enter email
-en - Email không đúng định dạng - Email is not in the correct format
-en - Vui lòng nhập mật khẩu - Please enter password
-en - Mật khẩu tối thiểu 4 kí tự - Minimum password is 4 characters on one's own
+en - Đăng nhập thành công - Login successful
+en - Đăng nhập thất bại - Login failed
 en - Mail khẩu email - Email password
 en - Mail khôi phục - Recovery email
 en - Trạng thái - Status
@@ -67,7 +49,7 @@ en - Lần tương tác cuối - Last interaction
 en - Ghi chú - Notes
 en - Mở Chrome - Open Chrome
 en - Thông tin hành động đang chạy - Running action information
-en - Tiến Tình đã chạy - Tien Tinh has run
+en - Tiến trình đã chạy - Progress has been run
 en - Tiêu đề - Title
 en - Kèm ảnh - Attach photo
 en - Số ảnh kèm - Number of attached photos
@@ -86,6 +68,24 @@ en - Số ảnh - Number photo
 en - Mật khẩu mail - Mail password
 en - Mail Khôi phục - Recovery mail
 en - Tên - Name
+en - Đăng nhập - Login
+en - Đăng xuất - Logout
+en - Quên mật khẩu - Forgot password
+en - Bạn chưa có tài khoản? - You don't have an account?
+en - Tạo tài khoản mới - Create new account
+en - Nhập - Enter
+en - Mật khẩu - Password
+en - Vui lòng nhập email - Please enter email
+en - Email không đúng định dạng - Email is not in the correct format
+en - Vui lòng nhập mật khẩu - Please enter password
+en - Mật khẩu tối thiểu 4 kí tự - Minimum password is 4 characters on one's own
+en - Cài đặt - Settings
+en - Hướng dẫn sử dụng - User Instructions
+en - Thông báo - Notifications
+en - Điều khoản - Terms
+en - Điều khoản sử dụng - Terms of Use
+en - Đồng ý điều khoản sử dụng và không hiển thị thêm nữa - Agree to the terms of use and no further displays
+en - Đồng ý - Agree
 en - Tạo tài khoản - Create account
 en - Tải lại - Reload
 en - Ẩn hiển cột - Show columns
@@ -361,34 +361,33 @@ en - Nếu không có trùng sẽ tự động xóa UID sau khi được mời q
 en - Vui lòng danh sách UID làm ADMIN vào đây. Mỗi UID một dòng! - Please list UID as ADMIN here. One line per UID!
 en - Tổng số nhóm chọn để bình luận - Total number of groups selected to comment
 en - Vui lòng nhập ID Nhóm tại đây! - Please enter Group ID here!
-en - Chuyển tài khoản nễu lỗi liên tiếp - Switch accounts if consecutive errors
-en - Nhập câu trả lời Tham gia tại đây! - Enter answer Join here!
+en - Nhập câu trả lời Tham gia tại đây! - Enter reply Join here!
 en - Bài viết mới nhất - Latest posts
-en - Danh sách bài viết - List of posts 
-en - Tự động lấy danh sách bạn bè hiện tại của tài khoản - Automatically get the account's current friend list
+en - Danh sách bài viết - List of posts
+en - Tự động lấy danh sách bạn bè hiện tại của tài khoản - Automatically get friend list account's current
 en - Tự động lấy danh sách nhóm hiện tại của tài khoản - Automatically get the account's current group list
 en - Chạy lại từ đầu - Restart from the beginning
 en - Mỗi lần dừng - Every stop
 en - Phút - Minute
-en - Cấu hình chia sẻ bài viết - Configuring article sharing
-en - Mỗi tài khoản chia sẻ tối đa - Each account shares at least multi
-en - Khoảng cách 2 lần liên tiếp - Distance twice in a row
+en - Cấu hình chia sẻ bài viết - Post sharing configuration
+en - Mỗi tài khoản chia sẻ tối đa - Each account shares maximum
+en - Khoảng cách 2 lần liên tiếp - Distance of 2 consecutive times 
 en - ID bài viết - Article ID
 en - Nhập ID bài viết muốn chia sẻ vào đây. Mỗi ID một dòng - Enter the article ID you want to share here. One ID per line
-en - Tích vào đây nếu bài viết chia sẻ là LIVETREAM - Check here if the shared article is LIVETREAM
-en - Enter shared content. Spin structure - Enter shared content. Spin structure
+en - Tích vào đây nếu bài viết chia sẻ là LIVETREAM - Check here if the shared post is LIVETREAM
+en - Nhập nội dung chia sẻ Cấu trúc spin - Enter sharing content Spin structure
 en - Chia sẻ về tin cá nhân - Share about personal news
 en - Chia sẻ về trang cá nhân - Share about personal page
-en - Chia sẻ vào nhóm - Share to groups
-en - Chia sẻ vào nhóm đã tham gia của tài khoản - Share to groups that have joined your account
+en - Chia sẻ vào nhóm - Share to group
+en - Chia sẻ vào nhóm đã tham gia của tài khoản - Share to joined groups account membership
 en - Chia sẻ vào nhóm theo ID Group - Share to groups by Group ID
 en - Vui lòng nhập ID GROUP vào đây - Please enter GROUP ID here
-en - Chỉ chia sẻ vào nhóm không kiểm duyệt - Only Share in an uncensored group
-en - Không chia sẻ trùng nhóm giữa các tài khoản (Theo ID GROUP) - Do not share the same group between accounts (According to GROUP ID)
-en - Tương tác bài viết - Interact with the article
-en - Thả cảm xúc ngẫu nhiên bài viết - Randomly drop emotions on the article
-en - Cho phép trùng nội dung bài viết - Allow duplicate article content
-en - Vui lòng nhập BÌNH LUẬN bài viết vào đây. Mỗi nội dung một dòng - Please enter a COMMENT on the article Write here. One line per content
+en - Chỉ chia sẻ vào nhóm không kiểm duyệt - Only share to uncensored groups
+en - Không chia sẻ trùng nhóm giữa các tài khoản (Theo ID GROUP) - Do not share duplicate groups between accounts (According to GROUP ID)
+en - Tương tác bài viết - Article interaction
+en - Thả cảm xúc ngẫu nhiên bài viết -  Randomly drop post reactions
+en - Cho phép trùng nội dung bài viết - Duplicate article content is allowed
+en - Vui lòng nhập BÌNH LUẬN bài viết vào đây. Mỗi nội dung một dòng - Please enter article COMMENT here. One line per content
 en - Nhập nội dung chia sẻ. Cấu trúc spin - Enter the content to share. Spin structure
 en - Tổng số nội dung chọn để seeding - Total content selected for seeding
 en - Tự động chia sẻ bài viết về tường cá nhân - Automatically share article to personal wall
@@ -560,15 +559,17 @@ en - Cài đặt dữ liệu - Data settings
 en - Đường dẫn thư mục Profile - Profile folder path
 en - Sao lưu Cơ sở dữ liệu - Backup Database
 en - Sao lưu - Backup
-en - Thời gian sao lưu gần nhất. Cơ sở dữ liệu chưa bao giờ được sao lưu - Backup time last saved. Database was never backed up
+en - Thời gian sao lưu gần nhất. Cơ sở dữ liệu chưa bao giờ được sao lưu - Backup time last saved. Database has never been backed up
 en - Khôi phục Cơ sở dữ liệu - Restore Database
 en - Khôi phục - Restore
-en - Cơ sở dữ liệu chưa bao giờ được khôi phục - Database was never restored
+en - Cơ sở dữ liệu chưa bao giờ được khôi phục - Database has never been restored
 en - Cài đặt chung - General settings
 en - Cài đặt Poxy - Poxy settings
 en - Lưu - Save
-en - Chọn cột hiển thị - Select display column
-en - Chạy lại từ đầu - Rerun from start
-en - Tự động lấy danh sách nhóm hiện tại của tài khoản - Automatically get the account's current group list
-en - Tự động lấy danh sách bạn bè hiện tại của tài khoản - Automatically get the account's current friends list
+en - Chạy lại từ đầu - Rerun from beginning
+en - Tự động lấy danh sách nhóm hiện tại của tài khoản - Auto-retrieve account's current group list
+en - Tự động lấy danh sách bạn bè hiện tại của tài khoản - Automatically get account's current friends list
 en - Mỗi lần dừng - Every stop
+en - Hiển thị cột - Column display
+en - Cấu hình tham gia nhóm - Group participation configuration
+en - Nhập danh sách từ khóa vào đây. Mỗi từ khóa một dòng - Enter keyword list here. One keyword per line
